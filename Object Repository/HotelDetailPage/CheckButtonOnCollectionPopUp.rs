@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CheckButtonOnCollectionPopUp</name>
+   <tag></tag>
+   <elementGuidId>f5905336-5d01-4684-96ec-49ee03426a52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-1awozwy.r-1k97etb.r-1naam9t.r-sdzlij.r-1phboty.r-d045u9.r-z80fyv.r-1777fci.r-19wmn03 > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Private'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>eab54edb-2a65-4b1a-adb1-7e2a1c8fe057</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>f291035b-6ebf-4188-8bef-1a0c0fb95e57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>930688b7-ad03-4116-b59e-b5070b36c902</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>bfc378ae-7e17-40a4-8d0f-fa3745d671b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>ad9e6715-9c63-46df-88bb-bbfd841f2ec4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>021406c6-0693-4b72-9627-994801a00c86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>IcSystemCheckmark</value>
+      <webElementGuid>18b2d3ec-3d5d-449d-ac7f-9f3ca4a23e2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[17]/div[@class=&quot;css-1dbjc4n r-1niwhzg r-1p0dtai r-6koalj r-1d2f490 r-1xcajam r-zchlnj r-ipm5af&quot;]/div[@class=&quot;css-1dbjc4n r-1kihuf0 r-13awgt0 r-1777fci r-12vffkv&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-1l7z4oj&quot;]/div[@class=&quot;css-1dbjc4n r-ymttw5 r-tskmnb&quot;]/div[@class=&quot;css-1dbjc4n r-1uq9rlk r-1rnoaur&quot;]/div[@class=&quot;css-1dbjc4n r-1peese0&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep&quot;]/div[@class=&quot;css-1dbjc4n r-1loqt21 r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-1k97etb r-1naam9t r-sdzlij r-1phboty r-d045u9 r-z80fyv r-1777fci r-19wmn03&quot;]/svg[1]</value>
+      <webElementGuid>3ac5350b-9a00-4654-af1e-1d86d26f17ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Private'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>45e66e48-cf6a-423f-90f8-16912b435284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotel'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>c7da6d6d-4c77-4257-829e-69790c9543a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>dfc5b546-4a05-4738-bd3d-0813b55e780a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>ae1c19de-e616-4e9d-8b96-ddb4a602a456</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

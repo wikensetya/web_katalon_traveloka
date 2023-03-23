@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Case 2,Chrome 111.0.0.0,"Tambahkan wishlist 3 hotel dengan kota yang berbeda dari case 1, dengan kriteria yang masih sama dengan case 1.
+(Tidak perlu melakukan pemesanan)",,2023-03-22 19:57:48,2023-03-22 20:00:19,2m - 30.550s,FAILED
+,,,,,,,
+Test Cases/Verify user can 3 Hotels into wishlist,Chrome 111.0.0.0,,,2023-03-22 19:57:49,2023-03-22 20:00:19,2m - 29.779s,FAILED
+"callTestCase(findTestCase(""Verify user can login""), [""link"":""https://api.email-tester.project.skyshi.io/wiken3@inbound.skyshi.io/code"", ""email"":""wiken3@inbound.skyshi.io"", ""password"":""wiken123%""], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-22 19:57:50,2023-03-22 19:58:54,1m - 4.125s,PASSED
+waitForPageLoad(2),Chrome 111.0.0.0,,,2023-03-22 19:58:54,2023-03-22 19:58:54,0.046s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-22 19:58:54,2023-03-22 19:58:55,0.592s,PASSED
+"click(findTestObject(""HomePage/HotelsMenu""))",Chrome 111.0.0.0,,,2023-03-22 19:58:55,2023-03-22 19:58:56,0.814s,PASSED
+"waitForElementPresent(findTestObject(""HotelSection/RecentlyViewedHotelsButton""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:58:56,2023-03-22 19:58:57,0.863s,PASSED
+"verifyElementText(findTestObject(""HotelSection/RecentlyViewedHotelsButton""), ""Recently Viewed Hotels"")",Chrome 111.0.0.0,,,2023-03-22 19:58:57,2023-03-22 19:58:57,0.784s,PASSED
+"setText(findTestObject(""HotelSection/InputDestination""), ""Jakarta"")",Chrome 111.0.0.0,,,2023-03-22 19:58:57,2023-03-22 19:58:59,1.242s,PASSED
+"waitForElementPresent(findTestObject(""SearchResultHotels/ResultJakartaCity""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:58:59,2023-03-22 19:59:00,1.662s,PASSED
+"click(findTestObject(""SearchResultHotels/ResultJakartaCity""))",Chrome 111.0.0.0,,,2023-03-22 19:59:00,2023-03-22 19:59:01,1.001s,PASSED
+"verifyElementAttributeValue(findTestObject(""HotelSection/InputCityHotel""), ""value"", ""Jakarta, Indonesia"", 2)",Chrome 111.0.0.0,,,2023-03-22 19:59:01,2023-03-22 19:59:02,1.126s,PASSED
+"click(findTestObject(""HotelSection/SearchHotelsButton""))",Chrome 111.0.0.0,,,2023-03-22 19:59:02,2023-03-22 19:59:06,3.682s,PASSED
+waitForPageLoad(5),Chrome 111.0.0.0,,,2023-03-22 19:59:06,2023-03-22 19:59:06,0.224s,PASSED
+"verifyElementText(findTestObject(""LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp""), ""Login Successful!"")",Chrome 111.0.0.0,,,2023-03-22 19:59:06,2023-03-22 19:59:14,7.621s,PASSED
+"click(findTestObject(""LoginSuccessfulPopUp/OKButton""))",Chrome 111.0.0.0,,,2023-03-22 19:59:14,2023-03-22 19:59:15,0.634s,PASSED
+"verifyElementText(findTestObject(""SearchResultHotels/TitleCitySearchResult""), ""Your search results in Jakarta, Indonesia"")",Chrome 111.0.0.0,,,2023-03-22 19:59:15,2023-03-22 19:59:15,0.532s,PASSED
+"verifyElementPresent(findTestObject(""SearchResultHotels/HotelCardMuliaSenayanJakarta""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:59:15,2023-03-22 19:59:16,0.658s,PASSED
+"click(findTestObject(""SearchResultHotels/HotelCardMuliaSenayanJakarta""))",Chrome 111.0.0.0,,,2023-03-22 19:59:16,2023-03-22 19:59:17,0.910s,PASSED
+waitForPageLoad(5),Chrome 111.0.0.0,,,2023-03-22 19:59:17,2023-03-22 19:59:17,0.042s,PASSED
+switchToWindowIndex(1),Chrome 111.0.0.0,,,2023-03-22 19:59:17,2023-03-22 19:59:17,0.174s,PASSED
+"verifyElementText(findTestObject(""HotelDetailPage/TitleHotelJakartaDetailPage""), ""Hotel Mulia Senayan, Jakarta"")",Chrome 111.0.0.0,,,2023-03-22 19:59:17,2023-03-22 19:59:23,6.431s,PASSED
+"click(findTestObject(""HotelDetailPage/SelectRoomButton""))",Chrome 111.0.0.0,,,2023-03-22 19:59:23,2023-03-22 19:59:24,0.669s,PASSED
+"waitForElementVisible(findTestObject(""HotelDetailPage/BookmarkBotton""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:59:24,2023-03-22 19:59:25,0.736s,PASSED
+"click(findTestObject(""HotelDetailPage/BookmarkBotton""))",Chrome 111.0.0.0,,,2023-03-22 19:59:25,2023-03-22 19:59:25,0.664s,PASSED
+"waitForElementPresent(findTestObject(""HotelDetailPage/TitleItemSuccessfullySavedPopUp""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:59:25,2023-03-22 19:59:26,1.105s,PASSED
+"verifyElementText(findTestObject(""HotelDetailPage/TitleItemSuccessfullySavedPopUp""), ""Item successfully saved!"")",Chrome 111.0.0.0,,,2023-03-22 19:59:26,2023-03-22 19:59:27,0.531s,PASSED
+"click(findTestObject(""HotelDetailPage/CloseItemSuccessfullySavedPopUp""))",Chrome 111.0.0.0,,,2023-03-22 19:59:27,2023-03-22 19:59:29,1.544s,PASSED
+switchToWindowIndex(0),Chrome 111.0.0.0,,,2023-03-22 19:59:29,2023-03-22 19:59:29,0.055s,PASSED
+"verifyElementText(findTestObject(""SearchResultHotels/TitleCitySearchResult""), ""Your search results in Jakarta, Indonesia"")",Chrome 111.0.0.0,,,2023-03-22 19:59:29,2023-03-22 19:59:29,0.656s,PASSED
+getViewportTopPosition(),Chrome 111.0.0.0,,,2023-03-22 19:59:29,2023-03-22 19:59:29,0.043s,PASSED
+"click(findTestObject(""SearchResultHotels/ChangeCityButton""))",Chrome 111.0.0.0,,,2023-03-22 19:59:29,2023-03-22 19:59:30,0.944s,PASSED
+"setText(findTestObject(""HotelSection/InputDestination""), ""Bandung"")",Chrome 111.0.0.0,,,2023-03-22 19:59:30,2023-03-22 19:59:32,1.593s,PASSED
+"waitForElementPresent(findTestObject(""SearchResultHotels/ResultBandungCity""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:59:32,2023-03-22 19:59:34,1.782s,PASSED
+"click(findTestObject(""SearchResultHotels/ResultBandungCity""))",Chrome 111.0.0.0,,,2023-03-22 19:59:34,2023-03-22 19:59:38,3.946s,PASSED
+waitForPageLoad(5),Chrome 111.0.0.0,,,2023-03-22 19:59:38,2023-03-22 19:59:38,0.116s,PASSED
+"verifyElementText(findTestObject(""LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp""), ""Login Successful!"")",Chrome 111.0.0.0,,,2023-03-22 19:59:38,2023-03-22 19:59:39,1.706s,PASSED
+"click(findTestObject(""LoginSuccessfulPopUp/OKButton""))",Chrome 111.0.0.0,,,2023-03-22 19:59:39,2023-03-22 19:59:44,4.859s,PASSED
+"verifyElementText(findTestObject(""SearchResultHotels/TitleCitySearchResult""), ""Your search results in Bandung, Indonesia"")",Chrome 111.0.0.0,,,2023-03-22 19:59:44,2023-03-22 19:59:45,0.661s,PASSED
+"verifyElementPresent(findTestObject(""SearchResultHotels/HotelCardTheGaiaHotelBandung""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:59:45,2023-03-22 19:59:45,0.577s,PASSED
+"click(findTestObject(""SearchResultHotels/HotelCardTheGaiaHotelBandung""))",Chrome 111.0.0.0,,,2023-03-22 19:59:45,2023-03-22 19:59:46,0.898s,PASSED
+waitForPageLoad(5),Chrome 111.0.0.0,,,2023-03-22 19:59:46,2023-03-22 19:59:46,0.053s,PASSED
+switchToWindowIndex(2),Chrome 111.0.0.0,,,2023-03-22 19:59:46,2023-03-22 19:59:47,0.140s,PASSED
+"verifyElementText(findTestObject(""HotelDetailPage/TitleHotelBandungDetailPage""), ""The Gaia Hotel Bandung"")",Chrome 111.0.0.0,,,2023-03-22 19:59:47,2023-03-22 19:59:53,6.217s,PASSED
+"click(findTestObject(""HotelDetailPage/SelectRoomButton""))",Chrome 111.0.0.0,,,2023-03-22 19:59:53,2023-03-22 19:59:53,0.692s,PASSED
+"waitForElementVisible(findTestObject(""HotelDetailPage/BookmarkBotton""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:59:53,2023-03-22 19:59:54,0.751s,PASSED
+"click(findTestObject(""HotelDetailPage/BookmarkBotton""))",Chrome 111.0.0.0,,,2023-03-22 19:59:54,2023-03-22 19:59:55,0.438s,PASSED
+"waitForElementPresent(findTestObject(""HotelDetailPage/TitleItemSuccessfullySavedPopUp""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:59:55,2023-03-22 19:59:56,0.937s,PASSED
+"verifyElementText(findTestObject(""HotelDetailPage/TitleItemSuccessfullySavedPopUp""), ""Item successfully saved!"")",Chrome 111.0.0.0,,,2023-03-22 19:59:56,2023-03-22 19:59:57,0.901s,PASSED
+"click(findTestObject(""HotelDetailPage/CloseItemSuccessfullySavedPopUp""))",Chrome 111.0.0.0,,,2023-03-22 19:59:57,2023-03-22 19:59:57,0.466s,PASSED
+switchToWindowIndex(0),Chrome 111.0.0.0,,,2023-03-22 19:59:57,2023-03-22 19:59:57,0.089s,PASSED
+"verifyElementText(findTestObject(""SearchResultHotels/TitleCitySearchResult""), ""Your search results in Bandung, Indonesia"")",Chrome 111.0.0.0,,,2023-03-22 19:59:57,2023-03-22 19:59:58,0.504s,PASSED
+getViewportTopPosition(),Chrome 111.0.0.0,,,2023-03-22 19:59:58,2023-03-22 19:59:58,0.024s,PASSED
+"click(findTestObject(""SearchResultHotels/ChangeCityButton""))",Chrome 111.0.0.0,,,2023-03-22 19:59:58,2023-03-22 19:59:58,0.660s,PASSED
+"setText(findTestObject(""HotelSection/InputDestination""), ""Yogyakarta"")",Chrome 111.0.0.0,,,2023-03-22 19:59:58,2023-03-22 20:00:00,1.837s,PASSED
+"waitForElementPresent(findTestObject(""SearchResultHotels/ResultYogyakartaCity""), 2)",Chrome 111.0.0.0,,,2023-03-22 20:00:00,2023-03-22 20:00:02,1.790s,PASSED
+"click(findTestObject(""SearchResultHotels/ResultYogyakartaCity""))",Chrome 111.0.0.0,,,2023-03-22 20:00:02,2023-03-22 20:00:04,2.555s,PASSED
+waitForPageLoad(5),Chrome 111.0.0.0,,,2023-03-22 20:00:04,2023-03-22 20:00:05,0.374s,PASSED
+"verifyElementText(findTestObject(""LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp""), ""Login Successful!"")",Chrome 111.0.0.0,,,2023-03-22 20:00:05,2023-03-22 20:00:13,7.733s,PASSED
+"click(findTestObject(""LoginSuccessfulPopUp/OKButton""))",Chrome 111.0.0.0,,,2023-03-22 20:00:13,2023-03-22 20:00:14,0.998s,PASSED
+"verifyElementText(findTestObject(""SearchResultHotels/TitleCitySearchResult""), ""Your search results in Yogyakarta, Indonesia"")",Chrome 111.0.0.0,,,2023-03-22 20:00:14,2023-03-22 20:00:15,0.949s,PASSED
+"verifyElementPresent(findTestObject(""SearchResultHotels/HotelCardMeliaPurosaniYogyakarta""), 2)",Chrome 111.0.0.0,,,2023-03-22 20:00:15,2023-03-22 20:00:19,4.326s,FAILED

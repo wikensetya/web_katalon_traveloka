@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CloseItemSuccessfullySavedPopUp</name>
+   <tag></tag>
+   <elementGuidId>82a8a395-b0e2-4706-affe-e87813dfd82d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-kdyh1x.r-1472mwg.r-1udh08x.r-u8s1d.r-e1k2in.r-19lq7b1.r-lrsllp.r-184en5c > div.css-1dbjc4n.r-1loqt21.r-1otgn73.r-1i6wzkk.r-lrvibr > div.css-1dbjc4n > svg > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-id=&quot;IcSystemCrossClose&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>32a20144-f879-4a71-bc48-e480d828fe01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M6 6L18 18M6 18L18 6</value>
+      <webElementGuid>f651774a-d7ca-4243-ae95-87770f16d061</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>#687176</value>
+      <webElementGuid>e8f4be38-c935-4645-9f10-fc58980358ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>2e9bc976-e22d-4706-b27d-f42cdc02564b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linecap</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>6a6831c4-10f0-40a4-ac90-3604721821c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linejoin</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>2f5436eb-3470-4770-86ac-69137b70f5d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[33]/div[@class=&quot;css-1dbjc4n r-1niwhzg r-1p0dtai r-6koalj r-1d2f490 r-1xcajam r-zchlnj r-ipm5af&quot;]/div[@class=&quot;css-1dbjc4n r-1kihuf0 r-13awgt0 r-1777fci r-12vffkv&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-1l7z4oj&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-1472mwg r-1udh08x r-u8s1d r-e1k2in r-19lq7b1 r-lrsllp r-184en5c&quot;]/div[@class=&quot;css-1dbjc4n r-1loqt21 r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>9841b4a5-c180-42b1-be9c-3278b9fc21ad</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

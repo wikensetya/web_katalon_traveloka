@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TitleVerificationCodePopUp</name>
+   <tag></tag>
+   <elementGuidId>c37a1a70-0323-4f9a-9e3e-f7910416edf0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.css-4rbku5.css-901oao.r-1sixt3s.r-1x35g6.r-b88u0q.r-vrz42v.r-1ifxtd0.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h1[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>f3bd7e11-e8c8-4277-a96a-b27dbfcaf4f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>b3fdb060-0aa6-4dee-a87d-b2361d0630c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>5315e23e-120a-47eb-9931-5c8fb1a46b24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>af7644c8-5b32-406b-91ad-8d5f282c29a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rbku5 css-901oao r-1sixt3s r-1x35g6 r-b88u0q r-vrz42v r-1ifxtd0 r-fdjqy7</value>
+      <webElementGuid>d1619995-e76b-44aa-82df-18c696182ae9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Input Verification Code</value>
+      <webElementGuid>e0fe0263-f70f-4036-a7ff-53d2986faac6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[12]/div[@class=&quot;css-1dbjc4n r-1niwhzg r-1p0dtai r-6koalj r-1d2f490 r-1xcajam r-zchlnj r-ipm5af&quot;]/div[@class=&quot;css-1dbjc4n r-1kihuf0 r-13awgt0 r-1777fci r-12vffkv&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-b4qz5r r-1jgb5lz r-1udh08x r-d23pfw&quot;]/div[@class=&quot;css-1dbjc4n r-bnwqim&quot;]/h1[@class=&quot;css-4rbku5 css-901oao r-1sixt3s r-1x35g6 r-b88u0q r-vrz42v r-1ifxtd0 r-fdjqy7&quot;]</value>
+      <webElementGuid>022a7409-54a2-4d97-989b-d010c3b25064</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h1[1]</value>
+      <webElementGuid>855b457d-5d2c-4d3b-873d-e615b57f8433</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::h1[1]</value>
+      <webElementGuid>79a30dcb-6d7a-43a0-9be2-55f5435d1117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verification Code:'])[1]/preceding::h1[1]</value>
+      <webElementGuid>62394357-01c0-47b5-8da1-2801e5a873ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::h1[1]</value>
+      <webElementGuid>caab093e-9acd-41d4-8bf9-2820d7d0368c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Input Verification Code']/parent::*</value>
+      <webElementGuid>801e219e-9760-4585-a180-99167e63201d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>af782710-e58c-42cd-b593-d3b9b4f9fd32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Input Verification Code' or . = 'Input Verification Code')]</value>
+      <webElementGuid>4db616fd-a063-4aea-9c8f-cfcfebb0b98f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

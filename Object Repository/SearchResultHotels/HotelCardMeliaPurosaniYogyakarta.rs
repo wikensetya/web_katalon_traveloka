@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>HotelCardMeliaPurosaniYogyakarta</name>
+   <tag></tag>
+   <elementGuidId>188da0e1-4082-4304-9751-0f9a8d7d1532</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-eqz5dr.r-ymttw5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[5]/div/div[3]/div[2]/div[3]/div/div/div/div/div/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9debedf4-d75e-4361-9b6a-75d03cfea263</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-eqz5dr r-ymttw5</value>
+      <webElementGuid>95072706-06c7-4067-af2c-1364f2db2db3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)</value>
+      <webElementGuid>98c5b747-c3ff-4232-b7b1-8bc43b90e1d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n r-mabd2g r-1q2s4rl&quot;]/div[@class=&quot;css-1dbjc4n r-1jgb5lz r-uwe93p&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-18u37iz&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-19u6a5r&quot;]/div[@class=&quot;css-1dbjc4n r-1wzrnnt&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-q8m4tp r-1loqt21&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-1wh2hl7 r-e65k4z r-9m1xoq r-rs99b7 r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-18u37iz r-15y939m&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-13awgt0 r-1wtj0ep r-1yzf0co&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr r-ymttw5&quot;]</value>
+      <webElementGuid>25c38bb7-f274-4551-89cf-beb1c3058131</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[5]/div/div[3]/div[2]/div[3]/div/div/div/div/div/div[3]/div</value>
+      <webElementGuid>78816569-0f6a-4d20-abc3-518c0edcee04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Must travel in these uncertain times? Learn how to keep your staying plan flexible.'])[1]/following::div[30]</value>
+      <webElementGuid>343d6f2a-aa93-4510-b2b5-d4ff924ff646</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xtra Deals'])[2]/following::div[33]</value>
+      <webElementGuid>818f2662-d58d-46b1-8f6d-8673b374ac29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/div/div/div/div/div[3]/div</value>
+      <webElementGuid>8ac09e8f-09cd-4cfb-a3ad-b44aab8405c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]</value>
+      <webElementGuid>7bf437f5-7fa6-47fb-9147-7b991df68feb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

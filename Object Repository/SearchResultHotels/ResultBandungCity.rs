@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResultBandungCity</name>
+   <tag></tag>
+   <elementGuidId>5ed30c47-b88e-41d9-a071-f61724a5fede</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-1awozwy.r-18u37iz.r-1wtj0ep.r-zl2h9q</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'BandungCity' or . = 'BandungCity')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>79e873db-6e29-4cf3-9f67-4b6cb7603b43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep r-zl2h9q</value>
+      <webElementGuid>14654f0f-4d9a-434c-8bfc-fa4143ebb7b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BandungCity</value>
+      <webElementGuid>8273e72d-32a7-48bd-a9a1-ce3e16afed8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n r-1jgb5lz r-xiad99 r-16k0tzm&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-1yos0t3 r-bztko3 r-184en5c&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-pezta&quot;]/div[@class=&quot;css-1dbjc4n r-6koalj r-18u37iz r-12w9sp&quot;]/div[@class=&quot;css-1dbjc4n r-16y2uox r-1wbh5a2 r-zm1pxt&quot;]/div[@class=&quot;css-1dbjc4n r-nsbfu8&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-tqpus0&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-1gx4gb9 r-kdyh1x r-rs99b7 r-1d2f490 r-1udh08x r-u8s1d r-j76wpu r-pezta&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-1sncvnh&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1loqt21 r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-qklmqi r-1gx4gb9 r-edyy15&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep r-zl2h9q&quot;]</value>
+      <webElementGuid>5c104299-7bd9-4cde-b4f9-94c4f13ce9af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[5]/div[2]/div/div/div/div[3]/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>0705cf39-d8bd-4469-9671-e50aee007ca4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type more to get more relevant results'])[1]/following::div[4]</value>
+      <webElementGuid>c1aa8861-6e6b-4a8e-9a6b-69d7c21678a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City, destination, or hotel name'])[1]/following::div[17]</value>
+      <webElementGuid>382d17d2-278c-4496-a6f4-458914f3289c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>1a3a6181-6fdf-4689-a6f1-a0d63dcf7382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'BandungCity' or . = 'BandungCity')]</value>
+      <webElementGuid>0aaa645c-d095-45f6-9fbf-6684b7237b0e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

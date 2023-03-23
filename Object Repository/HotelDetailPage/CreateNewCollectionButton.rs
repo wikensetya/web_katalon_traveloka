@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CreateNewCollectionButton</name>
+   <tag></tag>
+   <elementGuidId>8f4b942b-86b7-478c-bd32-5a9688c1b9d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-1awozwy.r-1loqt21.r-13awgt0.r-18u37iz.r-1peese0.r-usiww2.r-1otgn73.r-1i6wzkk.r-lrvibr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add this item to collection?'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b4539832-89ce-45d1-be29-b15fa75f908a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>b83583a8-9203-4c44-940b-1c76b24c6ad0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-1awozwy r-1loqt21 r-13awgt0 r-18u37iz r-1peese0 r-usiww2 r-1otgn73 r-1i6wzkk r-lrvibr</value>
+      <webElementGuid>76a92f9c-b5e6-4911-ba2f-c2b52f73c118</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+Create New Collection</value>
+      <webElementGuid>11ea07ca-5231-4673-88ce-9f0f9b9c9db9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[17]/div[@class=&quot;css-1dbjc4n r-1niwhzg r-1p0dtai r-6koalj r-1d2f490 r-1xcajam r-zchlnj r-ipm5af&quot;]/div[@class=&quot;css-1dbjc4n r-1kihuf0 r-13awgt0 r-1777fci r-12vffkv&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-1l7z4oj&quot;]/div[@class=&quot;css-1dbjc4n r-ymttw5 r-tskmnb&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-1loqt21 r-13awgt0 r-18u37iz r-1peese0 r-usiww2 r-1otgn73 r-1i6wzkk r-lrvibr&quot;]</value>
+      <webElementGuid>870ae9b4-81a3-4bd3-935c-5e0359fe32de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add this item to collection?'])[1]/following::div[1]</value>
+      <webElementGuid>acb9bc3d-fa9a-4462-9206-14844d73a26c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item successfully saved!'])[1]/following::div[3]</value>
+      <webElementGuid>a542624c-c1d6-4bd8-b0b3-69ee9b7e7322</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[17]/div/div[2]/div/div[2]/div[2]</value>
+      <webElementGuid>449df318-2d28-470b-9078-1c118e7c4afc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '+Create New Collection' or . = '+Create New Collection')]</value>
+      <webElementGuid>c63b9c98-1010-4285-84a9-dbdd0792b9de</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

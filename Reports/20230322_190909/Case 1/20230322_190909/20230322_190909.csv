@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Case 1,Chrome 111.0.0.0,"Cari hotel di website traveloka kriteria : Kota Palembang check in 1 hari , jumlah tamu 1 orang dewasa 1 kamar, lakukan filter hasil tampilan hotel berdasarkan harga terendah dan memiliki fasilitas wifi, dengan kisaran harga 500,000 - 800,000. Kemudian pilih salah satu hotel (bebas) dan lakukan simpan (wishlist) hotel tersebut. Lakukan pemesanan hotel dari fitur simpan (wishlist).
+
+Test Case 1 - Positive - Verify user can add Hotel in Palembang into wishlist
+Test Case 2 - Negative - Verify guest user get login pop-up when bookmark hotel",,2023-03-22 19:09:16,2023-03-22 19:13:14,3m - 57.948s,PASSED
+,,,,,,,
+Test Cases/Verify user can add Hotel in Palembang into wishlist,Chrome 111.0.0.0,Positve Test,,2023-03-22 19:09:17,2023-03-22 19:12:05,2m - 47.433s,PASSED
+"callTestCase(findTestCase(""Verify user can login""), [""link"":""https://api.email-tester.project.skyshi.io/wiken3@inbound.skyshi.io/code"", ""email"":""wiken3@inbound.skyshi.io"", ""password"":""wiken123%""], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-22 19:09:18,2023-03-22 19:10:36,1m - 17.273s,PASSED
+waitForPageLoad(2),Chrome 111.0.0.0,,,2023-03-22 19:10:36,2023-03-22 19:10:36,0.122s,PASSED
+maximizeWindow(),Chrome 111.0.0.0,,,2023-03-22 19:10:36,2023-03-22 19:10:37,0.903s,PASSED
+"click(findTestObject(""HomePage/HotelsMenu""))",Chrome 111.0.0.0,,,2023-03-22 19:10:37,2023-03-22 19:10:38,1.323s,PASSED
+"waitForElementPresent(findTestObject(""HotelSection/RecentlyViewedHotelsButton""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:10:38,2023-03-22 19:10:39,1.035s,PASSED
+"verifyElementText(findTestObject(""HotelSection/RecentlyViewedHotelsButton""), ""Recently Viewed Hotels"")",Chrome 111.0.0.0,,,2023-03-22 19:10:39,2023-03-22 19:10:40,0.696s,PASSED
+"setText(findTestObject(""HotelSection/InputDestination""), ""Palembang"")",Chrome 111.0.0.0,,,2023-03-22 19:10:40,2023-03-22 19:10:42,1.819s,PASSED
+"waitForElementPresent(findTestObject(""HotelSection/ResultPalembangCity""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:10:42,2023-03-22 19:10:43,1.495s,PASSED
+"click(findTestObject(""HotelSection/ResultPalembangCity""))",Chrome 111.0.0.0,,,2023-03-22 19:10:43,2023-03-22 19:10:44,0.874s,PASSED
+"verifyElementAttributeValue(findTestObject(""HotelSection/InputCityHotel""), ""value"", ""Palembang, South Sumatra, Indonesia"", 2)",Chrome 111.0.0.0,,,2023-03-22 19:10:44,2023-03-22 19:10:45,1.412s,PASSED
+"click(findTestObject(""HotelSection/SearchHotelsButton""))",Chrome 111.0.0.0,,,2023-03-22 19:10:45,2023-03-22 19:10:49,3.221s,PASSED
+waitForPageLoad(5),Chrome 111.0.0.0,,,2023-03-22 19:10:49,2023-03-22 19:10:49,0.171s,PASSED
+"verifyElementText(findTestObject(""LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp""), ""Login Successful!"")",Chrome 111.0.0.0,,,2023-03-22 19:10:49,2023-03-22 19:10:56,6.845s,PASSED
+"click(findTestObject(""LoginSuccessfulPopUp/OKButton""))",Chrome 111.0.0.0,,,2023-03-22 19:10:56,2023-03-22 19:10:58,2.116s,PASSED
+"verifyElementText(findTestObject(""SearchResultHotels/TitleCitySearchResult""), ""Your search results in Palembang, Indonesia"")",Chrome 111.0.0.0,,,2023-03-22 19:10:58,2023-03-22 19:10:59,0.831s,PASSED
+"click(findTestObject(""SearchResultHotels/LowestPriceRadioButton""))",Chrome 111.0.0.0,,,2023-03-22 19:10:59,2023-03-22 19:11:01,2.834s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-22 19:11:01,2023-03-22 19:11:04,3.020s,PASSED
+"setText(findTestObject(""SearchResultHotels/InputMinPrice""), ""500000"")",Chrome 111.0.0.0,,,2023-03-22 19:11:04,2023-03-22 19:11:12,7.330s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-22 19:11:12,2023-03-22 19:11:15,3.017s,PASSED
+"setText(findTestObject(""SearchResultHotels/InputMaxPrice""), ""800000"")",Chrome 111.0.0.0,,,2023-03-22 19:11:15,2023-03-22 19:11:19,4.010s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-22 19:11:19,2023-03-22 19:11:22,3.012s,PASSED
+"click(findTestObject(""SearchResultHotels/WifiRadioButton""))",Chrome 111.0.0.0,,,2023-03-22 19:11:22,2023-03-22 19:11:23,1.464s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-22 19:11:23,2023-03-22 19:11:26,3.015s,PASSED
+"verifyElementPresent(findTestObject(""SearchResultHotels/HotelCardBestonHotelPalembang""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:11:26,2023-03-22 19:11:27,0.631s,PASSED
+"click(findTestObject(""SearchResultHotels/HotelCardBestonHotelPalembang""))",Chrome 111.0.0.0,,,2023-03-22 19:11:27,2023-03-22 19:11:28,0.627s,PASSED
+waitForPageLoad(5),Chrome 111.0.0.0,,,2023-03-22 19:11:28,2023-03-22 19:11:28,0.040s,PASSED
+switchToWindowIndex(1),Chrome 111.0.0.0,,,2023-03-22 19:11:28,2023-03-22 19:11:28,0.506s,PASSED
+"verifyElementText(findTestObject(""HotelDetailPage/TitleHotelPalembangDetailPage""), ""Beston Hotel Palembang (FKA Horison Ultima Palembang)"")",Chrome 111.0.0.0,,,2023-03-22 19:11:28,2023-03-22 19:11:39,10.464s,PASSED
+"click(findTestObject(""HotelDetailPage/SelectRoomButton""))",Chrome 111.0.0.0,,,2023-03-22 19:11:39,2023-03-22 19:11:39,0.757s,PASSED
+"waitForElementVisible(findTestObject(""HotelDetailPage/BookmarkBotton""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:11:39,2023-03-22 19:11:40,0.943s,PASSED
+"click(findTestObject(""HotelDetailPage/BookmarkBotton""))",Chrome 111.0.0.0,,,2023-03-22 19:11:40,2023-03-22 19:11:41,0.593s,PASSED
+"waitForElementPresent(findTestObject(""HotelDetailPage/TitleItemSuccessfullySavedPopUp""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:11:41,2023-03-22 19:11:42,0.880s,PASSED
+"verifyElementText(findTestObject(""HotelDetailPage/TitleItemSuccessfullySavedPopUp""), ""Item successfully saved!"")",Chrome 111.0.0.0,,,2023-03-22 19:11:42,2023-03-22 19:11:42,0.544s,PASSED
+"click(findTestObject(""HotelDetailPage/CloseItemSuccessfullySavedPopUp""))",Chrome 111.0.0.0,,,2023-03-22 19:11:42,2023-03-22 19:11:43,0.894s,PASSED
+"click(findTestObject(""HomePage/SavedMenu""))",Chrome 111.0.0.0,,,2023-03-22 19:11:43,2023-03-22 19:11:47,4.224s,PASSED
+waitForPageLoad(2),Chrome 111.0.0.0,,,2023-03-22 19:11:47,2023-03-22 19:11:48,0.112s,PASSED
+"verifyElementText(findTestObject(""CollectionPage/TitleCollectionsPage""), ""Collections"")",Chrome 111.0.0.0,,,2023-03-22 19:11:48,2023-03-22 19:11:49,0.987s,PASSED
+"verifyElementPresent(findTestObject(""CollectionPage/HotelCardBestonHotelPalembang""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:11:49,2023-03-22 19:11:49,0.925s,PASSED
+"click(findTestObject(""CollectionPage/HotelCardBestonHotelPalembang""))",Chrome 111.0.0.0,,,2023-03-22 19:11:49,2023-03-22 19:11:50,0.503s,PASSED
+switchToWindowIndex(2),Chrome 111.0.0.0,,,2023-03-22 19:11:50,2023-03-22 19:11:50,0.451s,PASSED
+waitForPageLoad(5),Chrome 111.0.0.0,,,2023-03-22 19:11:50,2023-03-22 19:11:55,4.756s,PASSED
+"verifyElementText(findTestObject(""HotelDetailPage/TitleHotelPalembangDetailPage""), ""Beston Hotel Palembang (FKA Horison Ultima Palembang)"")",Chrome 111.0.0.0,,,2023-03-22 19:11:55,2023-03-22 19:11:57,1.866s,PASSED
+"click(findTestObject(""HotelDetailPage/SelectRoomButton""), STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-03-22 19:11:57,2023-03-22 19:11:58,0.810s,PASSED
+"click(findTestObject(""HotelDetailPage/BookNowButton""))",Chrome 111.0.0.0,,,2023-03-22 19:11:58,2023-03-22 19:11:59,0.825s,PASSED
+waitForPageLoad(5),Chrome 111.0.0.0,,,2023-03-22 19:11:59,2023-03-22 19:11:59,0.078s,PASSED
+"verifyElementPresent(findTestObject(""BookingPage/TitleHotelBookingPage""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:11:59,2023-03-22 19:12:03,4.006s,PASSED
+"verifyElementPresent(findTestObject(""BookingPage/TitleLoggedInStatus""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:12:03,2023-03-22 19:12:04,0.835s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-22 19:12:04,2023-03-22 19:12:05,1.009s,PASSED
+,,,,,,,
+Test Cases/Verify guest user get login pop-up when bookmark hotel,Chrome 111.0.0.0,Negative Test,,2023-03-22 19:12:05,2023-03-22 19:13:14,1m - 9.538s,PASSED
+"openBrowser(""https://traveloka.com"")",Chrome 111.0.0.0,,,2023-03-22 19:12:05,2023-03-22 19:12:12,7.114s,PASSED
+waitForPageLoad(2),Chrome 111.0.0.0,,,2023-03-22 19:12:12,2023-03-22 19:12:13,0.158s,PASSED
+"click(findTestObject(""HomePage/HotelsMenu""))",Chrome 111.0.0.0,,,2023-03-22 19:12:13,2023-03-22 19:12:17,4.420s,PASSED
+"waitForElementPresent(findTestObject(""HotelSection/RecentlyViewedHotelsButton""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:12:17,2023-03-22 19:12:18,0.928s,PASSED
+"verifyElementText(findTestObject(""HotelSection/RecentlyViewedHotelsButton""), ""Recently Viewed Hotels"")",Chrome 111.0.0.0,,,2023-03-22 19:12:18,2023-03-22 19:12:19,0.701s,PASSED
+"setText(findTestObject(""HotelSection/InputDestination""), ""Palembang"")",Chrome 111.0.0.0,,,2023-03-22 19:12:19,2023-03-22 19:12:21,2.484s,PASSED
+"waitForElementPresent(findTestObject(""HotelSection/ResultPalembangCity""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:12:21,2023-03-22 19:12:23,1.540s,PASSED
+"click(findTestObject(""HotelSection/ResultPalembangCity""))",Chrome 111.0.0.0,,,2023-03-22 19:12:23,2023-03-22 19:12:24,0.946s,PASSED
+"verifyElementAttributeValue(findTestObject(""HotelSection/InputCityHotel""), ""value"", ""Palembang, South Sumatra, Indonesia"", 2)",Chrome 111.0.0.0,,,2023-03-22 19:12:24,2023-03-22 19:12:25,1.180s,PASSED
+"click(findTestObject(""HotelSection/SearchHotelsButton""))",Chrome 111.0.0.0,,,2023-03-22 19:12:25,2023-03-22 19:12:28,2.970s,PASSED
+waitForPageLoad(10),Chrome 111.0.0.0,,,2023-03-22 19:12:28,2023-03-22 19:12:28,0.285s,PASSED
+"verifyElementText(findTestObject(""SearchResultHotels/TitleCitySearchResult""), ""Your search results in Palembang, Indonesia"")",Chrome 111.0.0.0,,,2023-03-22 19:12:28,2023-03-22 19:12:34,5.570s,PASSED
+"click(findTestObject(""SearchResultHotels/LowestPriceRadioButton""))",Chrome 111.0.0.0,,,2023-03-22 19:12:34,2023-03-22 19:12:36,2.354s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-22 19:12:36,2023-03-22 19:12:39,3.010s,PASSED
+"setText(findTestObject(""SearchResultHotels/InputMinPrice""), ""500000"")",Chrome 111.0.0.0,,,2023-03-22 19:12:39,2023-03-22 19:12:44,4.737s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-22 19:12:44,2023-03-22 19:12:47,3.009s,PASSED
+"setText(findTestObject(""SearchResultHotels/InputMaxPrice""), ""800000"")",Chrome 111.0.0.0,,,2023-03-22 19:12:47,2023-03-22 19:12:50,3.133s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-22 19:12:50,2023-03-22 19:12:53,3.007s,PASSED
+"click(findTestObject(""SearchResultHotels/WifiRadioButton""))",Chrome 111.0.0.0,,,2023-03-22 19:12:53,2023-03-22 19:12:55,1.654s,PASSED
+delay(3),Chrome 111.0.0.0,,,2023-03-22 19:12:55,2023-03-22 19:12:58,3.008s,PASSED
+"verifyElementPresent(findTestObject(""SearchResultHotels/HotelCardBestonHotelPalembang""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:12:58,2023-03-22 19:12:58,0.504s,PASSED
+"click(findTestObject(""SearchResultHotels/HotelCardBestonHotelPalembang""))",Chrome 111.0.0.0,,,2023-03-22 19:12:58,2023-03-22 19:12:59,0.591s,PASSED
+waitForPageLoad(3),Chrome 111.0.0.0,,,2023-03-22 19:12:59,2023-03-22 19:12:59,0.059s,PASSED
+switchToWindowIndex(1),Chrome 111.0.0.0,,,2023-03-22 19:12:59,2023-03-22 19:12:59,0.047s,PASSED
+"verifyElementText(findTestObject(""HotelDetailPage/TitleHotelPalembangDetailPage""), ""Beston Hotel Palembang (FKA Horison Ultima Palembang)"")",Chrome 111.0.0.0,,,2023-03-22 19:12:59,2023-03-22 19:13:08,9.754s,PASSED
+"click(findTestObject(""HotelDetailPage/SelectRoomButton""))",Chrome 111.0.0.0,,,2023-03-22 19:13:09,2023-03-22 19:13:10,1.150s,PASSED
+"waitForElementVisible(findTestObject(""HotelDetailPage/BookmarkBotton""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:13:10,2023-03-22 19:13:10,0.746s,PASSED
+"click(findTestObject(""HotelDetailPage/BookmarkBotton""))",Chrome 111.0.0.0,,,2023-03-22 19:13:10,2023-03-22 19:13:12,1.725s,PASSED
+"waitForElementVisible(findTestObject(""HotelDetailPage/TitleLoginRequiredPopUp""), 2)",Chrome 111.0.0.0,,,2023-03-22 19:13:12,2023-03-22 19:13:13,0.791s,PASSED
+"verifyElementText(findTestObject(""HotelDetailPage/TitleLoginRequiredPopUp""), ""Login Required"")",Chrome 111.0.0.0,,,2023-03-22 19:13:13,2023-03-22 19:13:13,0.484s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-22 19:13:13,2023-03-22 19:13:14,0.766s,PASSED

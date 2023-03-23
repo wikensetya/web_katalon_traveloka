@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positive Test</description>
+   <name>Verify user can add 3 Hotels into wishlist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c454701-8a80-491e-956f-235c7d23f90a</testCaseGuid>
+</TestCaseEntity>

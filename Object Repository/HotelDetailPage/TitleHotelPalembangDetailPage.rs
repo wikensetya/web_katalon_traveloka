@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TitleHotelPalembangDetailPage</name>
+   <tag></tag>
+   <elementGuidId>07e9c431-7bc3-48c8-af8a-854781f3fb35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.css-4rbku5.css-901oao.r-1sixt3s.r-adyw6z.r-b88u0q.r-vrz42v.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[@role=&quot;heading&quot; and @class=&quot;css-4rbku5 css-901oao r-1sixt3s r-adyw6z r-b88u0q r-vrz42v r-fdjqy7&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>9e6ebdbf-ebc7-4239-9bce-469551617ae8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>d25f12b9-b486-4058-b2ba-94140b8b73e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>c006f926-d6d7-4d9d-8f7f-47f3d5550036</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>06317fe5-2ab2-4077-974b-fd8bde9c3bf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rbku5 css-901oao r-1sixt3s r-adyw6z r-b88u0q r-vrz42v r-fdjqy7</value>
+      <webElementGuid>17413071-66b7-4606-889d-4d8ec0bf78d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hotel Harvani</value>
+      <webElementGuid>2ad1b6f3-d119-48e5-8b81-db57f69c1a63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1jgb5lz r-1r5su4o r-uwe93p&quot;]/div[@class=&quot;css-1dbjc4n r-1oszu61 r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-b4qz5r r-1udh08x&quot;]/div[@class=&quot;css-1dbjc4n r-nsbfu8&quot;]/div[@class=&quot;css-1dbjc4n r-1oszu61 r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-1habvwh r-18u37iz r-1wtj0ep&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0&quot;]/div[@class=&quot;css-1dbjc4n r-15zivkp&quot;]/h1[@class=&quot;css-4rbku5 css-901oao r-1sixt3s r-adyw6z r-b88u0q r-vrz42v r-fdjqy7&quot;]</value>
+      <webElementGuid>4c7c8816-7dda-488e-86be-81e1088494d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[5]/div/div/div[3]/div/div/div/div/div/div/h1</value>
+      <webElementGuid>441459cd-01ba-418d-b44b-be305a9f0937</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Search'])[1]/following::h1[1]</value>
+      <webElementGuid>b9cdb633-03bb-483c-a75b-cd6295eebffd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotel Harvani'])[1]/following::h1[1]</value>
+      <webElementGuid>434ab511-6bbb-4668-b5db-3599d2fc4a45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotels'])[2]/preceding::h1[1]</value>
+      <webElementGuid>63225828-562d-4af3-80cb-31d7d2aeb67a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CleanAccommodation'])[1]/preceding::h1[1]</value>
+      <webElementGuid>0b60c657-6cdb-44f5-b6f9-42a1504c523c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>ade29514-6f25-4d34-820a-1ad2b37de4af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Hotel Harvani' or . = 'Hotel Harvani')]</value>
+      <webElementGuid>1a717bf7-3dd6-49ef-87c6-43afcf9819d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

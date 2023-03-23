@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SelectRoomButton</name>
+   <tag></tag>
+   <elementGuidId>cb10b130-d45d-4e98-b43a-6d90cbb311c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-901oao.css-bfa6kz.r-jwli3a.r-1sixt3s.r-cygvgh.r-b88u0q.r-1iukymi.r-q4m81j</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'css-901oao css-bfa6kz r-jwli3a r-1sixt3s r-cygvgh r-b88u0q r-1iukymi r-q4m81j' and (text() = 'Select Room' or . = 'Select Room')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[5]/div/div/div[3]/div/div/div/div[7]/div[5]/div[5]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4d81ca20-0bcd-4094-9931-8313c822ae49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>d616d7bf-2a88-46ac-b0cd-e0132fedee0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>27c3aafc-b46f-4175-bd25-9195dc7b2ba2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-901oao css-bfa6kz r-jwli3a r-1sixt3s r-cygvgh r-b88u0q r-1iukymi r-q4m81j</value>
+      <webElementGuid>c51e5a84-1f92-4f10-bec0-fde4b612dfaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Room</value>
+      <webElementGuid>621c5578-3c05-4e0f-90b7-225a76702a62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1jgb5lz r-1r5su4o r-uwe93p&quot;]/div[@class=&quot;css-1dbjc4n r-1oszu61 r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-b4qz5r r-1udh08x&quot;]/div[@class=&quot;css-1dbjc4n r-nsbfu8&quot;]/div[@class=&quot;css-1dbjc4n r-1oszu61 r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-18u37iz r-1h0z5md&quot;]/div[@class=&quot;css-1dbjc4n r-obd0qt r-eqz5dr&quot;]/div[@class=&quot;css-18t94o4 css-1dbjc4n r-kdyh1x r-oo3563 r-1loqt21 r-10paoce r-1e081e0 r-5njf8e r-1otgn73 r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-13awgt0 r-18u37iz r-1777fci&quot;]/div[@class=&quot;css-901oao css-bfa6kz r-jwli3a r-1sixt3s r-cygvgh r-b88u0q r-1iukymi r-q4m81j&quot;]</value>
+      <webElementGuid>438930ac-a640-4fee-a8bc-7b9ecb47db18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[5]/div/div/div[3]/div/div/div/div[7]/div[5]/div[5]/div[2]/div</value>
+      <webElementGuid>9b94cd42-9f1a-41db-9e86-2feb0b82fced</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Room'])[1]/following::div[2]</value>
+      <webElementGuid>844db8b5-9c8f-4430-9b03-7053298a64dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 385.000'])[1]/following::div[5]</value>
+      <webElementGuid>9628bdb0-d800-4903-99e4-5c892483f9eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facilities'])[2]/preceding::div[1]</value>
+      <webElementGuid>01203a12-a326-4e42-9b8b-7a49d0b348a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AC'])[1]/preceding::div[3]</value>
+      <webElementGuid>4b9da086-7cb1-43eb-baed-85dbf3f8fda0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[5]/div[2]/div</value>
+      <webElementGuid>554f99ba-e175-4372-804e-9e72eafce8a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select Room' or . = 'Select Room')]</value>
+      <webElementGuid>47370290-64a9-4a8d-b1c3-5481279416ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positve Test</description>
+   <name>Verify user can add Hotel in Palembang into wishlist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e32390a8-1655-49b9-b746-4d369aad04e9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68e30fd6-4fad-43f1-982d-415910a1f3a2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68e30fd6-4fad-43f1-982d-415910a1f3a2</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
+</TestCaseEntity>

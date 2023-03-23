@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>HotelCards</name>
+   <tag></tag>
+   <elementGuidId>8373e202-8e1e-4189-8620-a7c374c0fa01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-14lw9ot.r-13awgt0.r-1wtj0ep.r-1yzf0co</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[5]/div/div[3]/div[2]/div[3]/div/div/div/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5cda8968-3961-45d1-afdd-7fdf667a715f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-14lw9ot r-13awgt0 r-1wtj0ep r-1yzf0co</value>
+      <webElementGuid>4f56b489-daef-4604-8fcd-2b56be0bf9da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The 1O1 Palembang RajawaliHotelsIlir Timur II, PalembangImpressive - 8.6 (5637)Refund Guarantee option available</value>
+      <webElementGuid>b197e29c-a635-422e-8ed7-e00e28428809</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n r-mabd2g r-1q2s4rl&quot;]/div[@class=&quot;css-1dbjc4n r-1jgb5lz r-uwe93p&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-18u37iz&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-19u6a5r&quot;]/div[@class=&quot;css-1dbjc4n r-1wzrnnt&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-q8m4tp r-1loqt21&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-1wh2hl7 r-e65k4z r-9m1xoq r-rs99b7 r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-18u37iz r-15y939m&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-13awgt0 r-1wtj0ep r-1yzf0co&quot;]</value>
+      <webElementGuid>ecc8d2bc-36b8-49ba-9853-09c2aeda5fc6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[5]/div/div[3]/div[2]/div[3]/div/div/div/div/div/div[3]</value>
+      <webElementGuid>a8e5b02d-0435-4c41-81e5-74c369778b99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Must travel in these uncertain times? Learn how to keep your staying plan flexible.'])[1]/following::div[29]</value>
+      <webElementGuid>49ba7176-fec5-490a-a553-6f89937df84f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xtra Deals'])[2]/following::div[32]</value>
+      <webElementGuid>ac57add4-29e1-429b-95e3-31808d03d148</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/div/div/div/div/div[3]</value>
+      <webElementGuid>df624b4b-6de2-42b1-810f-d857df6943f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'The 1O1 Palembang RajawaliHotelsIlir Timur II, PalembangImpressive - 8.6 (5637)Refund Guarantee option available' or . = 'The 1O1 Palembang RajawaliHotelsIlir Timur II, PalembangImpressive - 8.6 (5637)Refund Guarantee option available')]</value>
+      <webElementGuid>22838753-5835-4d67-b415-7d4f2623c7da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TitleConfirmationNeededPopUp</name>
+   <tag></tag>
+   <elementGuidId>e04edefc-bfb9-4187-9b9a-09d9ec37f23a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.css-4rbku5.css-901oao.r-1sixt3s.r-1x35g6.r-b88u0q.r-vrz42v.r-1ifxtd0.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sorry, there is an error in our system. Please try again after a while.'])[1]/following::h1[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>c76c8f82-f6fc-41e3-80a4-6f2def036203</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>3a2bafaa-b763-46cd-8dfb-b9baccba5f56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>4728c26a-40cb-4878-8664-bb74f3ddca4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>bb30b090-3c69-41de-84cc-781319bd1b13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rbku5 css-901oao r-1sixt3s r-1x35g6 r-b88u0q r-vrz42v r-1ifxtd0 r-fdjqy7</value>
+      <webElementGuid>d707b239-b5db-403b-a1be-8fcdcdb65691</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirmation Needed</value>
+      <webElementGuid>ecb91e53-ecbd-410e-9ce7-988a7bf83815</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[13]/div[@class=&quot;css-1dbjc4n r-1niwhzg r-1p0dtai r-6koalj r-1d2f490 r-1xcajam r-zchlnj r-ipm5af&quot;]/div[@class=&quot;css-1dbjc4n r-1kihuf0 r-13awgt0 r-1777fci r-12vffkv&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-b4qz5r r-1jgb5lz r-1udh08x r-d23pfw&quot;]/h1[@class=&quot;css-4rbku5 css-901oao r-1sixt3s r-1x35g6 r-b88u0q r-vrz42v r-1ifxtd0 r-fdjqy7&quot;]</value>
+      <webElementGuid>5f0bb5b9-0092-4920-a8e9-55e0b3b4dcc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sorry, there is an error in our system. Please try again after a while.'])[1]/following::h1[1]</value>
+      <webElementGuid>17c86615-253b-4869-93e9-f1028d1ccfbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h1[1]</value>
+      <webElementGuid>b0483ba3-9b12-4ea9-96ba-ca5c76401174</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::h1[1]</value>
+      <webElementGuid>e13f6404-830d-4941-ae90-d00605a9f319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='wi***skyshi.com'])[1]/preceding::h1[1]</value>
+      <webElementGuid>a7b099f7-961b-448f-84a8-42cabd9e45bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Confirmation Needed']/parent::*</value>
+      <webElementGuid>e52d9986-06e2-4c49-9f49-6697bd7a6111</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>2d571e50-5d60-4983-b3b8-fb80d3de781c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Confirmation Needed' or . = 'Confirmation Needed')]</value>
+      <webElementGuid>b8d2d529-6456-49ce-aef2-f281849b7370</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

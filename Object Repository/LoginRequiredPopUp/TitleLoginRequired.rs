@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TitleLoginRequired</name>
+   <tag></tag>
+   <elementGuidId>fb6f5967-8247-4823-8114-02f3ee80645c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.css-4rbku5.css-901oao.r-1sixt3s.r-adyw6z.r-b88u0q.r-135wba7.r-ymttw5.r-tvv088.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>880547d7-31bb-42cc-aeff-22e4a7710977</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>19f2a60a-2cd8-4d39-815c-b84a40936cff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>03c5dc52-72da-4e44-97ab-be9d4bb3258d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>ba52b52f-0d81-4571-9058-a10bdab190fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rbku5 css-901oao r-1sixt3s r-adyw6z r-b88u0q r-135wba7 r-ymttw5 r-tvv088 r-fdjqy7</value>
+      <webElementGuid>f73be7c5-7281-442c-bf20-0f273f1783e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login Required</value>
+      <webElementGuid>df609fc0-38b1-4c29-a372-e1a063ed5ee9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[10]/div[@class=&quot;css-1dbjc4n r-6koalj r-1xcajam r-ipm5af&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-1777fci r-12vffkv&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-1l7z4oj&quot;]/h2[@class=&quot;css-4rbku5 css-901oao r-1sixt3s r-adyw6z r-b88u0q r-135wba7 r-ymttw5 r-tvv088 r-fdjqy7&quot;]</value>
+      <webElementGuid>9c10a1e3-442a-4e02-a8d1-74e44c58dab8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
+      <webElementGuid>8405b647-5b07-4d29-bc13-b42780119da6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::h2[1]</value>
+      <webElementGuid>f4b6268b-ed50-47a8-ad56-71c480161e79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Since this is a member-only feature, you must log in to your Traveloka Account.'])[1]/preceding::h2[1]</value>
+      <webElementGuid>4a27ba85-f889-4f99-b5e0-2e72c6aa3f28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maybe Later'])[1]/preceding::h2[1]</value>
+      <webElementGuid>c166cb3d-92f7-4f52-a29d-ce9304423bb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Login Required']/parent::*</value>
+      <webElementGuid>3902d155-3d28-428c-be91-61ae530aa601</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h2</value>
+      <webElementGuid>7ad827bc-cf4c-4f60-9834-18d241918964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Login Required' or . = 'Login Required')]</value>
+      <webElementGuid>2becc0af-d85c-4072-92de-8223f43c439d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

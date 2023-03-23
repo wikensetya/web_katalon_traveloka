@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negative Test</description>
+   <name>Verify guest user get login pop-up when bookmark hotel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed3eb1ff-9513-4f0a-a178-86e9b516b3ed</testCaseGuid>
+</TestCaseEntity>

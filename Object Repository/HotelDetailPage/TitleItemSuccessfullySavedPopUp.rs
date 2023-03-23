@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TitleItemSuccessfullySavedPopUp</name>
+   <tag></tag>
+   <elementGuidId>6004d35f-51d7-4232-be10-14e0c4dbfd14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.css-4rbku5.css-901oao.r-1sixt3s.r-adyw6z.r-b88u0q.r-135wba7.r-ymttw5.r-tvv088.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Save This Item'])[1]/following::h2[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>77b87522-cba8-400b-862f-c35a5b6c1ed6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>36b22308-d51b-4f71-b55d-1ab6f8cd13c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>37675fbf-e37f-4295-b7c2-ed0673fb32c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>bcd963a1-2cc6-4849-b514-71fe3ceb239d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rbku5 css-901oao r-1sixt3s r-adyw6z r-b88u0q r-135wba7 r-ymttw5 r-tvv088 r-fdjqy7</value>
+      <webElementGuid>b662a4eb-18aa-40b7-947f-9673838f38fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Item successfully saved!</value>
+      <webElementGuid>5a4b55c0-3e37-4a6e-b62b-dd3ac55abc36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[18]/div[@class=&quot;css-1dbjc4n r-1niwhzg r-1p0dtai r-6koalj r-1d2f490 r-1xcajam r-zchlnj r-ipm5af&quot;]/div[@class=&quot;css-1dbjc4n r-1kihuf0 r-13awgt0 r-1777fci r-12vffkv&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-1l7z4oj&quot;]/h2[@class=&quot;css-4rbku5 css-901oao r-1sixt3s r-adyw6z r-b88u0q r-135wba7 r-ymttw5 r-tvv088 r-fdjqy7&quot;]</value>
+      <webElementGuid>8e7d1691-9096-44d7-984c-5996a1d2a191</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save This Item'])[1]/following::h2[1]</value>
+      <webElementGuid>bd97c8a2-f3d3-4219-9866-beb5392ad7e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book this room to earn Traveloka Points and get discounts on your future bookings.'])[2]/following::h2[1]</value>
+      <webElementGuid>3e0e9711-b434-4e49-9cdd-96b7d0ea44e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add this item to collection?'])[1]/preceding::h2[1]</value>
+      <webElementGuid>7d44adfe-86b1-4b7d-9e8a-290a9827535b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::h2[1]</value>
+      <webElementGuid>74057ec6-beb6-466e-836b-641da1605b98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Item successfully saved!']/parent::*</value>
+      <webElementGuid>d9a4146c-6c05-476b-8048-3666d5a13ee4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h2</value>
+      <webElementGuid>45f3681d-116a-4a61-8ea8-738856a91b3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Item successfully saved!' or . = 'Item successfully saved!')]</value>
+      <webElementGuid>e41f3066-b2ad-4dcf-bf34-21dc373aa2de</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

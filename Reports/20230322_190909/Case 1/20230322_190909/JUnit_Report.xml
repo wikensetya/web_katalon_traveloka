@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Case 1" time="237.948" tests="2" failures="0" errors="0">
+   <testsuite name="Case 1" tests="2" failures="0" errors="0" time="237.948" skipped="0" timestamp="2023-03-22 19:09:16" hostname="skyshi - 192.168.0.103" id="Test Suites/Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/skyshi/git/web_katalon_traveloka/Reports/20230322_190909/Case 1/20230322_190909"/>
+         <property name="logFiles" value="/Users/skyshi/git/web_katalon_traveloka/Reports/20230322_190909/Case 1/20230322_190909/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="skyshi - 192.168.0.103"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="ce978e3d4e2350e0952b062c006d2280"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Verify user can add Hotel in Palembang into wishlist" time="167.433" classname="Test Cases/Verify user can add Hotel in Palembang into wishlist" status="PASSED">
+         <system-out><![CDATA[2023-03-22 19:09:17 - [TEST_CASE][PASSED] - Test Cases/Verify user can add Hotel in Palembang into wishlist: Test Cases/Verify user can add Hotel in Palembang into wishlist
+
+2023-03-22 19:09:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Verify user can login"), ["link":"https://api.email-tester.project.skyshi.io/wiken3@inbound.skyshi.io/code", "email":"wiken3@inbound.skyshi.io", "password":"wiken123%"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Verify user can login' successfully
+
+2023-03-22 19:09:19 - [TEST_CASE][PASSED] - Test Cases/Verify user can login: Test Cases/Verify user can login
+
+2023-03-22 19:09:20 - [TEST_STEP][PASSED] - openBrowser("https://www.traveloka.com/"): Browser is opened with url: 'https://www.traveloka.com/'
+
+2023-03-22 19:09:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-22 19:09:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-22 19:09:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.traveloka.com/'
+
+2023-03-22 19:09:32 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2023-03-22 19:09:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:09:34 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/LogInButton")): Object: 'Object Repository/HomePage/LogInButton' is clicked on
+
+2023-03-22 19:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/LogInButton' is clicked on
+
+2023-03-22 19:09:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LogInPopUp/LogInToYourAccountPopUp"), 2): Object 'Object Repository/LogInPopUp/LogInToYourAccountPopUp' is present
+
+2023-03-22 19:09:41 - [MESSAGE][PASSED] - Object 'Object Repository/LogInPopUp/LogInToYourAccountPopUp' is present
+
+2023-03-22 19:09:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LogInPopUp/LogInToYourAccountPopUp"), "Log in to your account"): Actual text and expected text of test object 'Object Repository/LogInPopUp/LogInToYourAccountPopUp' are matched.
+
+2023-03-22 19:09:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LogInPopUp/LogInToYourAccountPopUp' are matched.
+
+2023-03-22 19:09:44 - [TEST_STEP][PASSED] - setText(findTestObject("LogInPopUp/InputEmail"), email): Text 'wiken3@inbound.skyshi.io' is set on object 'Object Repository/LogInPopUp/InputEmail'
+
+2023-03-22 19:09:49 - [MESSAGE][PASSED] - Text 'wiken3@inbound.skyshi.io' is set on object 'Object Repository/LogInPopUp/InputEmail'
+
+2023-03-22 19:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("LogInPopUp/InputPassword"), password): Text 'wiken123%' is set on object 'Object Repository/LogInPopUp/InputPassword'
+
+2023-03-22 19:09:52 - [MESSAGE][PASSED] - Text 'wiken123%' is set on object 'Object Repository/LogInPopUp/InputPassword'
+
+2023-03-22 19:09:52 - [TEST_STEP][PASSED] - click(findTestObject("LogInPopUp/LogInButton")): Object: 'Object Repository/LogInPopUp/LogInButton' is clicked on
+
+2023-03-22 19:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LogInPopUp/LogInButton' is clicked on
+
+2023-03-22 19:09:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ConfirmationNeededPopUp/TitleConfirmationNeededPopUp"), 2): Object 'Object Repository/ConfirmationNeededPopUp/TitleConfirmationNeededPopUp' is present
+
+2023-03-22 19:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/ConfirmationNeededPopUp/TitleConfirmationNeededPopUp' is present
+
+2023-03-22 19:09:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ConfirmationNeededPopUp/TitleConfirmationNeededPopUp"), "Confirmation Needed"): Actual text and expected text of test object 'Object Repository/ConfirmationNeededPopUp/TitleConfirmationNeededPopUp' are matched.
+
+2023-03-22 19:09:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ConfirmationNeededPopUp/TitleConfirmationNeededPopUp' are matched.
+
+2023-03-22 19:09:56 - [TEST_STEP][PASSED] - click(findTestObject("ConfirmationNeededPopUp/EmailConfirmation")): Object: 'Object Repository/ConfirmationNeededPopUp/EmailConfirmation' is clicked on
+
+2023-03-22 19:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ConfirmationNeededPopUp/EmailConfirmation' is clicked on
+
+2023-03-22 19:09:57 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2023-03-22 19:10:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2023-03-22 19:10:17 - [TEST_STEP][PASSED] - responseBody = sendRequest(findTestObject("ApiPage/VerificationCode")): Send request successfully
+
+2023-03-22 19:10:23 - [MESSAGE][INFO] - HAR: /Users/skyshi/git/web_katalon_traveloka/Reports/20230322_190909/Case 1/20230322_190909/requests/main/0.har
+
+2023-03-22 19:10:24 - [MESSAGE][PASSED] - Send request successfully
+
+2023-03-22 19:10:24 - [TEST_STEP][PASSED] - dataCode = responseBody.getResponseText(): null
+
+2023-03-22 19:10:24 - [TEST_STEP][PASSED] - setText(findTestObject("VerificationCodePopUp/InputVerificationCode"), dataCode): Text '302533' is set on object 'Object Repository/VerificationCodePopUp/InputVerificationCode'
+
+2023-03-22 19:10:26 - [MESSAGE][PASSED] - Text '302533' is set on object 'Object Repository/VerificationCodePopUp/InputVerificationCode'
+
+2023-03-22 19:10:26 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2023-03-22 19:10:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:10:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-22 19:10:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-22 19:10:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HomePage/UserName"), username): Actual text and expected text of test object 'Object Repository/HomePage/UserName' are matched.
+
+2023-03-22 19:10:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/UserName' are matched.
+
+2023-03-22 19:10:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Verify user can login' successfully
+
+2023-03-22 19:10:36 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2023-03-22 19:10:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:10:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-22 19:10:37 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-22 19:10:37 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/HotelsMenu")): Object: 'Object Repository/HomePage/HotelsMenu' is clicked on
+
+2023-03-22 19:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/HotelsMenu' is clicked on
+
+2023-03-22 19:10:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HotelSection/RecentlyViewedHotelsButton"), 2): Object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' is present
+
+2023-03-22 19:10:39 - [MESSAGE][PASSED] - Object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' is present
+
+2023-03-22 19:10:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelSection/RecentlyViewedHotelsButton"), "Recently Viewed Hotels"): Actual text and expected text of test object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' are matched.
+
+2023-03-22 19:10:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' are matched.
+
+2023-03-22 19:10:40 - [TEST_STEP][PASSED] - setText(findTestObject("HotelSection/InputDestination"), "Palembang"): Text 'Palembang' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 19:10:42 - [MESSAGE][PASSED] - Text 'Palembang' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 19:10:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HotelSection/ResultPalembangCity"), 2): Object 'Object Repository/HotelSection/ResultPalembangCity' is present
+
+2023-03-22 19:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/HotelSection/ResultPalembangCity' is present
+
+2023-03-22 19:10:43 - [TEST_STEP][PASSED] - click(findTestObject("HotelSection/ResultPalembangCity")): Object: 'Object Repository/HotelSection/ResultPalembangCity' is clicked on
+
+2023-03-22 19:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelSection/ResultPalembangCity' is clicked on
+
+2023-03-22 19:10:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HotelSection/InputCityHotel"), "value", "Palembang, South Sumatra, Indonesia", 2): Object 'Object Repository/HotelSection/InputCityHotel' has attribute 'value' with value 'Palembang, South Sumatra, Indonesia'
+
+2023-03-22 19:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/HotelSection/InputCityHotel' has attribute 'value' with value 'Palembang, South Sumatra, Indonesia'
+
+2023-03-22 19:10:45 - [TEST_STEP][PASSED] - click(findTestObject("HotelSection/SearchHotelsButton")): Object: 'Object Repository/HotelSection/SearchHotelsButton' is clicked on
+
+2023-03-22 19:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelSection/SearchHotelsButton' is clicked on
+
+2023-03-22 19:10:49 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-03-22 19:10:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:10:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp"), "Login Successful!"): Actual text and expected text of test object 'Object Repository/LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp' are matched.
+
+2023-03-22 19:10:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp' are matched.
+
+2023-03-22 19:10:56 - [TEST_STEP][PASSED] - click(findTestObject("LoginSuccessfulPopUp/OKButton")): Object: 'Object Repository/LoginSuccessfulPopUp/OKButton' is clicked on
+
+2023-03-22 19:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginSuccessfulPopUp/OKButton' is clicked on
+
+2023-03-22 19:10:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SearchResultHotels/TitleCitySearchResult"), "Your search results in Palembang, Indonesia"): Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:10:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:10:59 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/LowestPriceRadioButton")): Object: 'Object Repository/SearchResultHotels/LowestPriceRadioButton' is clicked on
+
+2023-03-22 19:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/LowestPriceRadioButton' is clicked on
+
+2023-03-22 19:11:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-22 19:11:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-22 19:11:04 - [TEST_STEP][PASSED] - setText(findTestObject("SearchResultHotels/InputMinPrice"), "500000"): Text '500000' is set on object 'Object Repository/SearchResultHotels/InputMinPrice'
+
+2023-03-22 19:11:12 - [MESSAGE][PASSED] - Text '500000' is set on object 'Object Repository/SearchResultHotels/InputMinPrice'
+
+2023-03-22 19:11:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-22 19:11:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-22 19:11:15 - [TEST_STEP][PASSED] - setText(findTestObject("SearchResultHotels/InputMaxPrice"), "800000"): Text '800000' is set on object 'Object Repository/SearchResultHotels/InputMaxPrice'
+
+2023-03-22 19:11:19 - [MESSAGE][PASSED] - Text '800000' is set on object 'Object Repository/SearchResultHotels/InputMaxPrice'
+
+2023-03-22 19:11:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-22 19:11:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-22 19:11:22 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/WifiRadioButton")): Object: 'Object Repository/SearchResultHotels/WifiRadioButton' is clicked on
+
+2023-03-22 19:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/WifiRadioButton' is clicked on
+
+2023-03-22 19:11:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-22 19:11:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-22 19:11:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SearchResultHotels/HotelCardBestonHotelPalembang"), 2): Object 'Object Repository/SearchResultHotels/HotelCardBestonHotelPalembang' is present
+
+2023-03-22 19:11:27 - [MESSAGE][PASSED] - Object 'Object Repository/SearchResultHotels/HotelCardBestonHotelPalembang' is present
+
+2023-03-22 19:11:27 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/HotelCardBestonHotelPalembang")): Object: 'Object Repository/SearchResultHotels/HotelCardBestonHotelPalembang' is clicked on
+
+2023-03-22 19:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/HotelCardBestonHotelPalembang' is clicked on
+
+2023-03-22 19:11:28 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-03-22 19:11:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:11:28 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2023-03-22 19:11:28 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-03-22 19:11:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelDetailPage/TitleHotelPalembangDetailPage"), "Beston Hotel Palembang (FKA Horison Ultima Palembang)"): Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelPalembangDetailPage' are matched.
+
+2023-03-22 19:11:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelPalembangDetailPage' are matched.
+
+2023-03-22 19:11:39 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/SelectRoomButton")): Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:11:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("HotelDetailPage/BookmarkBotton"), 2): Object 'Object Repository/HotelDetailPage/BookmarkBotton' is visible
+
+2023-03-22 19:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/HotelDetailPage/BookmarkBotton' is visible
+
+2023-03-22 19:11:40 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/BookmarkBotton")): Object: 'Object Repository/HotelDetailPage/BookmarkBotton' is clicked on
+
+2023-03-22 19:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/BookmarkBotton' is clicked on
+
+2023-03-22 19:11:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HotelDetailPage/TitleItemSuccessfullySavedPopUp"), 2): Object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' is present
+
+2023-03-22 19:11:42 - [MESSAGE][PASSED] - Object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' is present
+
+2023-03-22 19:11:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelDetailPage/TitleItemSuccessfullySavedPopUp"), "Item successfully saved!"): Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' are matched.
+
+2023-03-22 19:11:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' are matched.
+
+2023-03-22 19:11:42 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/CloseItemSuccessfullySavedPopUp")): Object: 'Object Repository/HotelDetailPage/CloseItemSuccessfullySavedPopUp' is clicked on
+
+2023-03-22 19:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/CloseItemSuccessfullySavedPopUp' is clicked on
+
+2023-03-22 19:11:43 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/SavedMenu")): Object: 'Object Repository/HomePage/SavedMenu' is clicked on
+
+2023-03-22 19:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/SavedMenu' is clicked on
+
+2023-03-22 19:11:47 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2023-03-22 19:11:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:11:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CollectionPage/TitleCollectionsPage"), "Collections"): Actual text and expected text of test object 'Object Repository/CollectionPage/TitleCollectionsPage' are matched.
+
+2023-03-22 19:11:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CollectionPage/TitleCollectionsPage' are matched.
+
+2023-03-22 19:11:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CollectionPage/HotelCardBestonHotelPalembang"), 2): Object 'Object Repository/CollectionPage/HotelCardBestonHotelPalembang' is present
+
+2023-03-22 19:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/CollectionPage/HotelCardBestonHotelPalembang' is present
+
+2023-03-22 19:11:49 - [TEST_STEP][PASSED] - click(findTestObject("CollectionPage/HotelCardBestonHotelPalembang")): Object: 'Object Repository/CollectionPage/HotelCardBestonHotelPalembang' is clicked on
+
+2023-03-22 19:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CollectionPage/HotelCardBestonHotelPalembang' is clicked on
+
+2023-03-22 19:11:50 - [TEST_STEP][PASSED] - switchToWindowIndex(2): Switched to window with index: '2'
+
+2023-03-22 19:11:50 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2023-03-22 19:11:50 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-03-22 19:11:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:11:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelDetailPage/TitleHotelPalembangDetailPage"), "Beston Hotel Palembang (FKA Horison Ultima Palembang)"): Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelPalembangDetailPage' are matched.
+
+2023-03-22 19:11:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelPalembangDetailPage' are matched.
+
+2023-03-22 19:11:57 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/SelectRoomButton"), STOP_ON_FAILURE): Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:11:58 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/BookNowButton")): Object: 'Object Repository/HotelDetailPage/BookNowButton' is clicked on
+
+2023-03-22 19:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/BookNowButton' is clicked on
+
+2023-03-22 19:11:59 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-03-22 19:11:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:11:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BookingPage/TitleHotelBookingPage"), 2): Object 'Object Repository/BookingPage/TitleHotelBookingPage' is present
+
+2023-03-22 19:12:03 - [MESSAGE][PASSED] - Object 'Object Repository/BookingPage/TitleHotelBookingPage' is present
+
+2023-03-22 19:12:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BookingPage/TitleLoggedInStatus"), 2): Object 'Object Repository/BookingPage/TitleLoggedInStatus' is present
+
+2023-03-22 19:12:04 - [MESSAGE][PASSED] - Object 'Object Repository/BookingPage/TitleLoggedInStatus' is present
+
+2023-03-22 19:12:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-22 19:12:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify guest user get login pop-up when bookmark hotel" time="69.538" classname="Test Cases/Verify guest user get login pop-up when bookmark hotel" status="PASSED">
+         <system-out><![CDATA[2023-03-22 19:12:05 - [TEST_CASE][PASSED] - Test Cases/Verify guest user get login pop-up when bookmark hotel: Test Cases/Verify guest user get login pop-up when bookmark hotel
+
+2023-03-22 19:12:05 - [TEST_STEP][PASSED] - openBrowser("https://traveloka.com"): Browser is opened with url: 'https://traveloka.com'
+
+2023-03-22 19:12:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-22 19:12:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-22 19:12:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://traveloka.com'
+
+2023-03-22 19:12:12 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2023-03-22 19:12:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:12:13 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/HotelsMenu")): Object: 'Object Repository/HomePage/HotelsMenu' is clicked on
+
+2023-03-22 19:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/HotelsMenu' is clicked on
+
+2023-03-22 19:12:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HotelSection/RecentlyViewedHotelsButton"), 2): Object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' is present
+
+2023-03-22 19:12:18 - [MESSAGE][PASSED] - Object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' is present
+
+2023-03-22 19:12:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelSection/RecentlyViewedHotelsButton"), "Recently Viewed Hotels"): Actual text and expected text of test object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' are matched.
+
+2023-03-22 19:12:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' are matched.
+
+2023-03-22 19:12:19 - [TEST_STEP][PASSED] - setText(findTestObject("HotelSection/InputDestination"), "Palembang"): Text 'Palembang' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 19:12:21 - [MESSAGE][PASSED] - Text 'Palembang' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 19:12:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HotelSection/ResultPalembangCity"), 2): Object 'Object Repository/HotelSection/ResultPalembangCity' is present
+
+2023-03-22 19:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/HotelSection/ResultPalembangCity' is present
+
+2023-03-22 19:12:23 - [TEST_STEP][PASSED] - click(findTestObject("HotelSection/ResultPalembangCity")): Object: 'Object Repository/HotelSection/ResultPalembangCity' is clicked on
+
+2023-03-22 19:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelSection/ResultPalembangCity' is clicked on
+
+2023-03-22 19:12:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HotelSection/InputCityHotel"), "value", "Palembang, South Sumatra, Indonesia", 2): Object 'Object Repository/HotelSection/InputCityHotel' has attribute 'value' with value 'Palembang, South Sumatra, Indonesia'
+
+2023-03-22 19:12:25 - [MESSAGE][PASSED] - Object 'Object Repository/HotelSection/InputCityHotel' has attribute 'value' with value 'Palembang, South Sumatra, Indonesia'
+
+2023-03-22 19:12:25 - [TEST_STEP][PASSED] - click(findTestObject("HotelSection/SearchHotelsButton")): Object: 'Object Repository/HotelSection/SearchHotelsButton' is clicked on
+
+2023-03-22 19:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelSection/SearchHotelsButton' is clicked on
+
+2023-03-22 19:12:28 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-03-22 19:12:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:12:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SearchResultHotels/TitleCitySearchResult"), "Your search results in Palembang, Indonesia"): Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:12:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:12:34 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/LowestPriceRadioButton")): Object: 'Object Repository/SearchResultHotels/LowestPriceRadioButton' is clicked on
+
+2023-03-22 19:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/LowestPriceRadioButton' is clicked on
+
+2023-03-22 19:12:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-22 19:12:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-22 19:12:39 - [TEST_STEP][PASSED] - setText(findTestObject("SearchResultHotels/InputMinPrice"), "500000"): Text '500000' is set on object 'Object Repository/SearchResultHotels/InputMinPrice'
+
+2023-03-22 19:12:44 - [MESSAGE][PASSED] - Text '500000' is set on object 'Object Repository/SearchResultHotels/InputMinPrice'
+
+2023-03-22 19:12:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-22 19:12:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-22 19:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("SearchResultHotels/InputMaxPrice"), "800000"): Text '800000' is set on object 'Object Repository/SearchResultHotels/InputMaxPrice'
+
+2023-03-22 19:12:50 - [MESSAGE][PASSED] - Text '800000' is set on object 'Object Repository/SearchResultHotels/InputMaxPrice'
+
+2023-03-22 19:12:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-22 19:12:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-22 19:12:53 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/WifiRadioButton")): Object: 'Object Repository/SearchResultHotels/WifiRadioButton' is clicked on
+
+2023-03-22 19:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/WifiRadioButton' is clicked on
+
+2023-03-22 19:12:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-03-22 19:12:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-03-22 19:12:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SearchResultHotels/HotelCardBestonHotelPalembang"), 2): Object 'Object Repository/SearchResultHotels/HotelCardBestonHotelPalembang' is present
+
+2023-03-22 19:12:58 - [MESSAGE][PASSED] - Object 'Object Repository/SearchResultHotels/HotelCardBestonHotelPalembang' is present
+
+2023-03-22 19:12:58 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/HotelCardBestonHotelPalembang")): Object: 'Object Repository/SearchResultHotels/HotelCardBestonHotelPalembang' is clicked on
+
+2023-03-22 19:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/HotelCardBestonHotelPalembang' is clicked on
+
+2023-03-22 19:12:59 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2023-03-22 19:12:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:12:59 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2023-03-22 19:12:59 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-03-22 19:12:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelDetailPage/TitleHotelPalembangDetailPage"), "Beston Hotel Palembang (FKA Horison Ultima Palembang)"): Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelPalembangDetailPage' are matched.
+
+2023-03-22 19:13:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelPalembangDetailPage' are matched.
+
+2023-03-22 19:13:09 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/SelectRoomButton")): Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:13:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("HotelDetailPage/BookmarkBotton"), 2): Object 'Object Repository/HotelDetailPage/BookmarkBotton' is visible
+
+2023-03-22 19:13:10 - [MESSAGE][PASSED] - Object 'Object Repository/HotelDetailPage/BookmarkBotton' is visible
+
+2023-03-22 19:13:10 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/BookmarkBotton")): Object: 'Object Repository/HotelDetailPage/BookmarkBotton' is clicked on
+
+2023-03-22 19:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/BookmarkBotton' is clicked on
+
+2023-03-22 19:13:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("HotelDetailPage/TitleLoginRequiredPopUp"), 2): Object 'Object Repository/HotelDetailPage/TitleLoginRequiredPopUp' is visible
+
+2023-03-22 19:13:13 - [MESSAGE][PASSED] - Object 'Object Repository/HotelDetailPage/TitleLoginRequiredPopUp' is visible
+
+2023-03-22 19:13:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelDetailPage/TitleLoginRequiredPopUp"), "Login Required"): Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleLoginRequiredPopUp' are matched.
+
+2023-03-22 19:13:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleLoginRequiredPopUp' are matched.
+
+2023-03-22 19:13:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-22 19:13:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-22 19:09:16 - [TEST_SUITE][PASSED] - Case 1: Test Cases/Verify guest user get login pop-up when bookmark hotel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

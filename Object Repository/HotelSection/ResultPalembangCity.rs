@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResultPalembangCity</name>
+   <tag></tag>
+   <elementGuidId>71ba2d0d-392f-4c98-8c2a-6ab303662178</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-1awozwy.r-18u37iz.r-1wtj0ep.r-zl2h9q</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'PalembangCity' or . = 'PalembangCity')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>348854a6-9446-49a5-b933-74c82553cc00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep r-zl2h9q</value>
+      <webElementGuid>5d8ad985-96e1-4c5f-9af1-9891383138a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PalembangCity</value>
+      <webElementGuid>83ad17b7-618c-4c8c-96d7-72da16ebd114</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n r-1jgb5lz r-xiad99 r-16k0tzm&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-1yos0t3 r-bztko3 r-184en5c&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-pezta&quot;]/div[@class=&quot;css-1dbjc4n r-6koalj r-18u37iz r-12w9sp&quot;]/div[@class=&quot;css-1dbjc4n r-16y2uox r-1wbh5a2 r-zm1pxt&quot;]/div[@class=&quot;css-1dbjc4n r-nsbfu8&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-tqpus0&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-1gx4gb9 r-kdyh1x r-rs99b7 r-1d2f490 r-1udh08x r-u8s1d r-j76wpu r-pezta&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-1sncvnh&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1loqt21 r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-qklmqi r-1gx4gb9 r-edyy15&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep r-zl2h9q&quot;]</value>
+      <webElementGuid>c6151e89-0ada-4b67-87b7-0aeb0dbe871a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[4]/div[2]/div/div/div/div[3]/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>24301e21-f9ac-4225-8080-afce9fc9f4da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type more to get more relevant results'])[1]/following::div[4]</value>
+      <webElementGuid>f0766496-52a1-4275-9675-8b729ba6e3e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City, destination, or hotel name'])[1]/following::div[17]</value>
+      <webElementGuid>80340c60-4bab-4b0d-9f8d-8fbd91d71244</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>61fcb569-4f4f-4a98-b173-99b49d7ad11a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PalembangCity' or . = 'PalembangCity')]</value>
+      <webElementGuid>bd9bcced-10df-4d5f-a547-2bdf3893453e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

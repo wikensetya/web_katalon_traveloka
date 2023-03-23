@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify user can login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73314a75-cdaa-4908-a26b-f3c2c8da7c93</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb6a715f-5fd7-4757-a062-e8dead5550ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0902362f-db31-482e-8d39-2551bf13ad20</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e06884fc-f9f5-4966-a156-06e7f50eab8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>552df3bf-3b16-40e8-9360-e8772f8d92a4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://api.email-tester.project.skyshi.io/wiken3@inbound.skyshi.io/code'</defaultValue>
+      <description></description>
+      <id>cb6a715f-5fd7-4757-a062-e8dead5550ad</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variable>
+   <variable>
+      <defaultValue>'wiken3@inbound.skyshi.io'</defaultValue>
+      <description></description>
+      <id>0902362f-db31-482e-8d39-2551bf13ad20</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'wiken123%'</defaultValue>
+      <description></description>
+      <id>e06884fc-f9f5-4966-a156-06e7f50eab8b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'weekendtiga (0 pts)'</defaultValue>
+      <description></description>
+      <id>552df3bf-3b16-40e8-9360-e8772f8d92a4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

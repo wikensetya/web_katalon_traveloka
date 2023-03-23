@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>HotelCardInCollection</name>
+   <tag></tag>
+   <elementGuidId>a3ba19ed-107a-4f13-8fa7-af7e9b1fa584</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-13awgt0.r-1ow6zhx.r-88pszg > h3.css-4rbku5.css-901oao.r-1sixt3s.r-ubezar.r-b88u0q.r-rjixqe.r-15zivkp.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[3]/div/div[3]/div[2]/div/div[2]/div/div/div/div/div/div/div/div[2]/h3</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h3[@role = 'heading' and (text() = 'The Gaia Hotel Bandung' or . = 'The Gaia Hotel Bandung')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>08c17ac9-ebe9-46a0-9470-6b7eb6b402df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>ab0fb2d4-bfbb-4d95-bb47-67879b9c9ba1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>d5f38ece-66ac-4b17-9836-3747dde1da7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>c8dd17b8-8608-4cb9-8d8c-eaaa5e41bb1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rbku5 css-901oao r-1sixt3s r-ubezar r-b88u0q r-rjixqe r-15zivkp r-fdjqy7</value>
+      <webElementGuid>b5752df5-f188-4808-a295-4952aa2adf1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The Gaia Hotel Bandung</value>
+      <webElementGuid>37e0f739-b667-4976-bde4-37e75487a2f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n r-1awozwy r-1ihkh82&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-zd98yo r-1jgb5lz r-2o02ov r-dg7iqi r-nib5yn&quot;]/div[@class=&quot;css-1dbjc4n r-18u37iz r-13qz1uu&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-1ul06mb&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy&quot;]/div[@class=&quot;css-1dbjc4n r-1udh08x r-13qz1uu&quot;]/div[@class=&quot;css-1dbjc4n r-13qz1uu&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1loqt21 r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-49uufg r-1udh08x&quot;]/div[@class=&quot;css-1dbjc4n r-ymttw5 r-95jzfe&quot;]/div[@class=&quot;css-1dbjc4n r-18u37iz&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-1ow6zhx r-88pszg&quot;]/h3[@class=&quot;css-4rbku5 css-901oao r-1sixt3s r-ubezar r-b88u0q r-rjixqe r-15zivkp r-fdjqy7&quot;]</value>
+      <webElementGuid>97750578-ddb7-469f-ae23-0d3346575cd0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[3]/div/div[3]/div[2]/div/div[2]/div/div/div/div/div/div/div/div[2]/h3</value>
+      <webElementGuid>e44d2d9a-bd06-4ff6-af4e-15be8714ea47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotels'])[2]/following::h3[1]</value>
+      <webElementGuid>45dbf125-c753-4b32-8c95-81945f22e60f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A place to keep all your favorite items!'])[1]/following::h3[1]</value>
+      <webElementGuid>3700c952-4900-44a8-8821-c6c269a52263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thu, 23 Mar 2023'])[1]/preceding::h3[1]</value>
+      <webElementGuid>e5c1d08b-4022-4b79-8a64-ca92874d50b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::h3[1]</value>
+      <webElementGuid>01a77b5a-8e3c-47ec-9a08-269b6656786f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The Gaia Hotel Bandung']/parent::*</value>
+      <webElementGuid>8c64c32f-d4f5-4c86-bca3-9d24f3a5f433</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h3</value>
+      <webElementGuid>e44b60cb-e6d2-48f9-91e4-e1c415b3db95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'The Gaia Hotel Bandung' or . = 'The Gaia Hotel Bandung')]</value>
+      <webElementGuid>416f57e0-f4a3-4d16-a464-7dae860adaa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[3]/div/div/div/div[2]/div[3]/div/div/div/div/div/div/div/div[2]/h3</value>
+      <webElementGuid>51b6cc1d-4524-4355-90b9-7aa748fc1d5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotels'])[1]/following::h3[1]</value>
+      <webElementGuid>ad699884-5b3b-4857-9213-f50cf5a9159f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Set Collection to Public'])[1]/following::h3[1]</value>
+      <webElementGuid>672adc36-a4a6-4a05-9b78-0e8bcd93786c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

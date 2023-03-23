@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Case 2" time="150.55" tests="1" failures="1" errors="0">
+   <testsuite name="Case 2" tests="1" failures="1" errors="0" time="150.55" skipped="0" timestamp="2023-03-22 19:57:48" hostname="skyshi - 192.168.0.103" id="Test Suites/Case 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/skyshi/git/web_katalon_traveloka/Reports/20230322_195741/Case 2/20230322_195741"/>
+         <property name="logFiles" value="/Users/skyshi/git/web_katalon_traveloka/Reports/20230322_195741/Case 2/20230322_195741/execution0.log"/>
+         <property name="attachments" value="/Users/skyshi/git/web_katalon_traveloka/Reports/20230322_195741/Case 2/20230322_195741/1679490018190.png, /Users/skyshi/git/web_katalon_traveloka/Reports/20230322_195741/Case 2/20230322_195741/1679490018848.png"/>
+         <property name="hostName" value="skyshi - 192.168.0.103"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="7f958d22377e42bed54c3f00b04c6db7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Verify user can 3 Hotels into wishlist" time="149.779" classname="Test Cases/Verify user can 3 Hotels into wishlist" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify user can 3 Hotels into wishlist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Verify user can 3 Hotels into wishlist.run(Verify user can 3 Hotels into wishlist:139)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679489861852.run(TempTestSuite1679489861852.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' located by '//*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-03-22 19:57:49 - [TEST_CASE][FAILED] - Test Cases/Verify user can 3 Hotels into wishlist: Test Cases/Verify user can 3 Hotels into wishlist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Verify user can 3 Hotels into wishlist.run(Verify user can 3 Hotels into wishlist:139)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679489861852.run(TempTestSuite1679489861852.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' located by '//*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-03-22 19:57:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Verify user can login"), ["link":"https://api.email-tester.project.skyshi.io/wiken3@inbound.skyshi.io/code", "email":"wiken3@inbound.skyshi.io", "password":"wiken123%"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Verify user can login' successfully
+
+2023-03-22 19:57:50 - [TEST_CASE][PASSED] - Test Cases/Verify user can login: Test Cases/Verify user can login
+
+2023-03-22 19:57:51 - [TEST_STEP][PASSED] - openBrowser("https://www.traveloka.com/"): Browser is opened with url: 'https://www.traveloka.com/'
+
+2023-03-22 19:57:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-22 19:57:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-22 19:58:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.traveloka.com/'
+
+2023-03-22 19:58:02 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2023-03-22 19:58:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:58:03 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/LogInButton")): Object: 'Object Repository/HomePage/LogInButton' is clicked on
+
+2023-03-22 19:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/LogInButton' is clicked on
+
+2023-03-22 19:58:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LogInPopUp/LogInToYourAccountPopUp"), 2): Object 'Object Repository/LogInPopUp/LogInToYourAccountPopUp' is present
+
+2023-03-22 19:58:09 - [MESSAGE][PASSED] - Object 'Object Repository/LogInPopUp/LogInToYourAccountPopUp' is present
+
+2023-03-22 19:58:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LogInPopUp/LogInToYourAccountPopUp"), "Log in to your account"): Actual text and expected text of test object 'Object Repository/LogInPopUp/LogInToYourAccountPopUp' are matched.
+
+2023-03-22 19:58:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LogInPopUp/LogInToYourAccountPopUp' are matched.
+
+2023-03-22 19:58:10 - [TEST_STEP][PASSED] - setText(findTestObject("LogInPopUp/InputEmail"), email): Text 'wiken3@inbound.skyshi.io' is set on object 'Object Repository/LogInPopUp/InputEmail'
+
+2023-03-22 19:58:12 - [MESSAGE][PASSED] - Text 'wiken3@inbound.skyshi.io' is set on object 'Object Repository/LogInPopUp/InputEmail'
+
+2023-03-22 19:58:12 - [TEST_STEP][PASSED] - setText(findTestObject("LogInPopUp/InputPassword"), password): Text 'wiken123%' is set on object 'Object Repository/LogInPopUp/InputPassword'
+
+2023-03-22 19:58:14 - [MESSAGE][PASSED] - Text 'wiken123%' is set on object 'Object Repository/LogInPopUp/InputPassword'
+
+2023-03-22 19:58:14 - [TEST_STEP][PASSED] - click(findTestObject("LogInPopUp/LogInButton")): Object: 'Object Repository/LogInPopUp/LogInButton' is clicked on
+
+2023-03-22 19:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LogInPopUp/LogInButton' is clicked on
+
+2023-03-22 19:58:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("ConfirmationNeededPopUp/TitleConfirmationNeededPopUp"), 2): Object 'Object Repository/ConfirmationNeededPopUp/TitleConfirmationNeededPopUp' is present
+
+2023-03-22 19:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/ConfirmationNeededPopUp/TitleConfirmationNeededPopUp' is present
+
+2023-03-22 19:58:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ConfirmationNeededPopUp/TitleConfirmationNeededPopUp"), "Confirmation Needed"): Actual text and expected text of test object 'Object Repository/ConfirmationNeededPopUp/TitleConfirmationNeededPopUp' are matched.
+
+2023-03-22 19:58:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ConfirmationNeededPopUp/TitleConfirmationNeededPopUp' are matched.
+
+2023-03-22 19:58:18 - [TEST_STEP][PASSED] - click(findTestObject("ConfirmationNeededPopUp/EmailConfirmation")): Object: 'Object Repository/ConfirmationNeededPopUp/EmailConfirmation' is clicked on
+
+2023-03-22 19:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ConfirmationNeededPopUp/EmailConfirmation' is clicked on
+
+2023-03-22 19:58:19 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2023-03-22 19:58:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2023-03-22 19:58:39 - [TEST_STEP][PASSED] - responseBody = sendRequest(findTestObject("ApiPage/VerificationCode")): Send request successfully
+
+2023-03-22 19:58:43 - [MESSAGE][INFO] - HAR: /Users/skyshi/git/web_katalon_traveloka/Reports/20230322_195741/Case 2/20230322_195741/requests/main/0.har
+
+2023-03-22 19:58:44 - [MESSAGE][PASSED] - Send request successfully
+
+2023-03-22 19:58:44 - [TEST_STEP][PASSED] - dataCode = responseBody.getResponseText(): null
+
+2023-03-22 19:58:44 - [TEST_STEP][PASSED] - setText(findTestObject("VerificationCodePopUp/InputVerificationCode"), dataCode): Text '073424' is set on object 'Object Repository/VerificationCodePopUp/InputVerificationCode'
+
+2023-03-22 19:58:45 - [MESSAGE][PASSED] - Text '073424' is set on object 'Object Repository/VerificationCodePopUp/InputVerificationCode'
+
+2023-03-22 19:58:45 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2023-03-22 19:58:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:58:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-22 19:58:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-22 19:58:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HomePage/UserName"), username): Actual text and expected text of test object 'Object Repository/HomePage/UserName' are matched.
+
+2023-03-22 19:58:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/UserName' are matched.
+
+2023-03-22 19:58:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Verify user can login' successfully
+
+2023-03-22 19:58:54 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2023-03-22 19:58:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:58:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-22 19:58:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-22 19:58:55 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/HotelsMenu")): Object: 'Object Repository/HomePage/HotelsMenu' is clicked on
+
+2023-03-22 19:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/HotelsMenu' is clicked on
+
+2023-03-22 19:58:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HotelSection/RecentlyViewedHotelsButton"), 2): Object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' is present
+
+2023-03-22 19:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' is present
+
+2023-03-22 19:58:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelSection/RecentlyViewedHotelsButton"), "Recently Viewed Hotels"): Actual text and expected text of test object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' are matched.
+
+2023-03-22 19:58:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelSection/RecentlyViewedHotelsButton' are matched.
+
+2023-03-22 19:58:57 - [TEST_STEP][PASSED] - setText(findTestObject("HotelSection/InputDestination"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 19:58:59 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 19:58:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SearchResultHotels/ResultJakartaCity"), 2): Object 'Object Repository/SearchResultHotels/ResultJakartaCity' is present
+
+2023-03-22 19:59:00 - [MESSAGE][PASSED] - Object 'Object Repository/SearchResultHotels/ResultJakartaCity' is present
+
+2023-03-22 19:59:00 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/ResultJakartaCity")): Object: 'Object Repository/SearchResultHotels/ResultJakartaCity' is clicked on
+
+2023-03-22 19:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/ResultJakartaCity' is clicked on
+
+2023-03-22 19:59:01 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("HotelSection/InputCityHotel"), "value", "Jakarta, Indonesia", 2): Object 'Object Repository/HotelSection/InputCityHotel' has attribute 'value' with value 'Jakarta, Indonesia'
+
+2023-03-22 19:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/HotelSection/InputCityHotel' has attribute 'value' with value 'Jakarta, Indonesia'
+
+2023-03-22 19:59:02 - [TEST_STEP][PASSED] - click(findTestObject("HotelSection/SearchHotelsButton")): Object: 'Object Repository/HotelSection/SearchHotelsButton' is clicked on
+
+2023-03-22 19:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelSection/SearchHotelsButton' is clicked on
+
+2023-03-22 19:59:06 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-03-22 19:59:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:59:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp"), "Login Successful!"): Actual text and expected text of test object 'Object Repository/LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp' are matched.
+
+2023-03-22 19:59:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp' are matched.
+
+2023-03-22 19:59:14 - [TEST_STEP][PASSED] - click(findTestObject("LoginSuccessfulPopUp/OKButton")): Object: 'Object Repository/LoginSuccessfulPopUp/OKButton' is clicked on
+
+2023-03-22 19:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginSuccessfulPopUp/OKButton' is clicked on
+
+2023-03-22 19:59:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SearchResultHotels/TitleCitySearchResult"), "Your search results in Jakarta, Indonesia"): Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:59:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:59:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SearchResultHotels/HotelCardMuliaSenayanJakarta"), 2): Object 'Object Repository/SearchResultHotels/HotelCardMuliaSenayanJakarta' is present
+
+2023-03-22 19:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/SearchResultHotels/HotelCardMuliaSenayanJakarta' is present
+
+2023-03-22 19:59:16 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/HotelCardMuliaSenayanJakarta")): Object: 'Object Repository/SearchResultHotels/HotelCardMuliaSenayanJakarta' is clicked on
+
+2023-03-22 19:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/HotelCardMuliaSenayanJakarta' is clicked on
+
+2023-03-22 19:59:17 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-03-22 19:59:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:59:17 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2023-03-22 19:59:17 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-03-22 19:59:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelDetailPage/TitleHotelJakartaDetailPage"), "Hotel Mulia Senayan, Jakarta"): Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelJakartaDetailPage' are matched.
+
+2023-03-22 19:59:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelJakartaDetailPage' are matched.
+
+2023-03-22 19:59:23 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/SelectRoomButton")): Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:59:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("HotelDetailPage/BookmarkBotton"), 2): Object 'Object Repository/HotelDetailPage/BookmarkBotton' is visible
+
+2023-03-22 19:59:25 - [MESSAGE][PASSED] - Object 'Object Repository/HotelDetailPage/BookmarkBotton' is visible
+
+2023-03-22 19:59:25 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/BookmarkBotton")): Object: 'Object Repository/HotelDetailPage/BookmarkBotton' is clicked on
+
+2023-03-22 19:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/BookmarkBotton' is clicked on
+
+2023-03-22 19:59:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HotelDetailPage/TitleItemSuccessfullySavedPopUp"), 2): Object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' is present
+
+2023-03-22 19:59:26 - [MESSAGE][PASSED] - Object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' is present
+
+2023-03-22 19:59:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelDetailPage/TitleItemSuccessfullySavedPopUp"), "Item successfully saved!"): Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' are matched.
+
+2023-03-22 19:59:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' are matched.
+
+2023-03-22 19:59:27 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/CloseItemSuccessfullySavedPopUp")): Object: 'Object Repository/HotelDetailPage/CloseItemSuccessfullySavedPopUp' is clicked on
+
+2023-03-22 19:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/CloseItemSuccessfullySavedPopUp' is clicked on
+
+2023-03-22 19:59:29 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-03-22 19:59:29 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-03-22 19:59:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SearchResultHotels/TitleCitySearchResult"), "Your search results in Jakarta, Indonesia"): Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:59:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:59:29 - [TEST_STEP][PASSED] - getViewportTopPosition(): Current viewport's top (y) position is 238
+
+2023-03-22 19:59:29 - [MESSAGE][PASSED] - Current viewport's top (y) position is 238
+
+2023-03-22 19:59:29 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/ChangeCityButton")): Object: 'Object Repository/SearchResultHotels/ChangeCityButton' is clicked on
+
+2023-03-22 19:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/ChangeCityButton' is clicked on
+
+2023-03-22 19:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("HotelSection/InputDestination"), "Bandung"): Text 'Bandung' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 19:59:32 - [MESSAGE][PASSED] - Text 'Bandung' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 19:59:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SearchResultHotels/ResultBandungCity"), 2): Object 'Object Repository/SearchResultHotels/ResultBandungCity' is present
+
+2023-03-22 19:59:34 - [MESSAGE][PASSED] - Object 'Object Repository/SearchResultHotels/ResultBandungCity' is present
+
+2023-03-22 19:59:34 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/ResultBandungCity")): Object: 'Object Repository/SearchResultHotels/ResultBandungCity' is clicked on
+
+2023-03-22 19:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/ResultBandungCity' is clicked on
+
+2023-03-22 19:59:38 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-03-22 19:59:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:59:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp"), "Login Successful!"): Actual text and expected text of test object 'Object Repository/LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp' are matched.
+
+2023-03-22 19:59:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp' are matched.
+
+2023-03-22 19:59:39 - [TEST_STEP][PASSED] - click(findTestObject("LoginSuccessfulPopUp/OKButton")): Object: 'Object Repository/LoginSuccessfulPopUp/OKButton' is clicked on
+
+2023-03-22 19:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginSuccessfulPopUp/OKButton' is clicked on
+
+2023-03-22 19:59:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SearchResultHotels/TitleCitySearchResult"), "Your search results in Bandung, Indonesia"): Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:59:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:59:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SearchResultHotels/HotelCardTheGaiaHotelBandung"), 2): Object 'Object Repository/SearchResultHotels/HotelCardTheGaiaHotelBandung' is present
+
+2023-03-22 19:59:45 - [MESSAGE][PASSED] - Object 'Object Repository/SearchResultHotels/HotelCardTheGaiaHotelBandung' is present
+
+2023-03-22 19:59:45 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/HotelCardTheGaiaHotelBandung")): Object: 'Object Repository/SearchResultHotels/HotelCardTheGaiaHotelBandung' is clicked on
+
+2023-03-22 19:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/HotelCardTheGaiaHotelBandung' is clicked on
+
+2023-03-22 19:59:46 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-03-22 19:59:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 19:59:46 - [TEST_STEP][PASSED] - switchToWindowIndex(2): Switched to window with index: '2'
+
+2023-03-22 19:59:47 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2023-03-22 19:59:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelDetailPage/TitleHotelBandungDetailPage"), "The Gaia Hotel Bandung"): Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelBandungDetailPage' are matched.
+
+2023-03-22 19:59:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleHotelBandungDetailPage' are matched.
+
+2023-03-22 19:59:53 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/SelectRoomButton")): Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/SelectRoomButton' is clicked on
+
+2023-03-22 19:59:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("HotelDetailPage/BookmarkBotton"), 2): Object 'Object Repository/HotelDetailPage/BookmarkBotton' is visible
+
+2023-03-22 19:59:54 - [MESSAGE][PASSED] - Object 'Object Repository/HotelDetailPage/BookmarkBotton' is visible
+
+2023-03-22 19:59:54 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/BookmarkBotton")): Object: 'Object Repository/HotelDetailPage/BookmarkBotton' is clicked on
+
+2023-03-22 19:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/BookmarkBotton' is clicked on
+
+2023-03-22 19:59:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HotelDetailPage/TitleItemSuccessfullySavedPopUp"), 2): Object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' is present
+
+2023-03-22 19:59:56 - [MESSAGE][PASSED] - Object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' is present
+
+2023-03-22 19:59:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("HotelDetailPage/TitleItemSuccessfullySavedPopUp"), "Item successfully saved!"): Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' are matched.
+
+2023-03-22 19:59:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HotelDetailPage/TitleItemSuccessfullySavedPopUp' are matched.
+
+2023-03-22 19:59:57 - [TEST_STEP][PASSED] - click(findTestObject("HotelDetailPage/CloseItemSuccessfullySavedPopUp")): Object: 'Object Repository/HotelDetailPage/CloseItemSuccessfullySavedPopUp' is clicked on
+
+2023-03-22 19:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/HotelDetailPage/CloseItemSuccessfullySavedPopUp' is clicked on
+
+2023-03-22 19:59:57 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-03-22 19:59:57 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-03-22 19:59:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SearchResultHotels/TitleCitySearchResult"), "Your search results in Bandung, Indonesia"): Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:59:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 19:59:58 - [TEST_STEP][PASSED] - getViewportTopPosition(): Current viewport's top (y) position is 238
+
+2023-03-22 19:59:58 - [MESSAGE][PASSED] - Current viewport's top (y) position is 238
+
+2023-03-22 19:59:58 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/ChangeCityButton")): Object: 'Object Repository/SearchResultHotels/ChangeCityButton' is clicked on
+
+2023-03-22 19:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/ChangeCityButton' is clicked on
+
+2023-03-22 19:59:58 - [TEST_STEP][PASSED] - setText(findTestObject("HotelSection/InputDestination"), "Yogyakarta"): Text 'Yogyakarta' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 20:00:00 - [MESSAGE][PASSED] - Text 'Yogyakarta' is set on object 'Object Repository/HotelSection/InputDestination'
+
+2023-03-22 20:00:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SearchResultHotels/ResultYogyakartaCity"), 2): Object 'Object Repository/SearchResultHotels/ResultYogyakartaCity' is present
+
+2023-03-22 20:00:02 - [MESSAGE][PASSED] - Object 'Object Repository/SearchResultHotels/ResultYogyakartaCity' is present
+
+2023-03-22 20:00:02 - [TEST_STEP][PASSED] - click(findTestObject("SearchResultHotels/ResultYogyakartaCity")): Object: 'Object Repository/SearchResultHotels/ResultYogyakartaCity' is clicked on
+
+2023-03-22 20:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchResultHotels/ResultYogyakartaCity' is clicked on
+
+2023-03-22 20:00:04 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-03-22 20:00:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-03-22 20:00:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp"), "Login Successful!"): Actual text and expected text of test object 'Object Repository/LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp' are matched.
+
+2023-03-22 20:00:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginSuccessfulPopUp/TitleLoginSuccessfulPopUp' are matched.
+
+2023-03-22 20:00:13 - [TEST_STEP][PASSED] - click(findTestObject("LoginSuccessfulPopUp/OKButton")): Object: 'Object Repository/LoginSuccessfulPopUp/OKButton' is clicked on
+
+2023-03-22 20:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginSuccessfulPopUp/OKButton' is clicked on
+
+2023-03-22 20:00:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SearchResultHotels/TitleCitySearchResult"), "Your search results in Yogyakarta, Indonesia"): Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 20:00:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SearchResultHotels/TitleCitySearchResult' are matched.
+
+2023-03-22 20:00:15 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("SearchResultHotels/HotelCardMeliaPurosaniYogyakarta"), 2): Unable to verify object 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Verify user can 3 Hotels into wishlist.run(Verify user can 3 Hotels into wishlist:139)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679489861852.run(TempTestSuite1679489861852.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' located by '//*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-03-22 20:00:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-03-22 20:00:18 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' located by '//*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' located by '//*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Verify user can 3 Hotels into wishlist.run(Verify user can 3 Hotels into wishlist:139)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679489861852.run(TempTestSuite1679489861852.groovy:36)
+)
+[[ATTACHMENT|/Users/skyshi/git/web_katalon_traveloka/Reports/20230322_195741/Case 2/20230322_195741/1679490018190.png]]
+
+2023-03-22 20:00:19 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Verify user can 3 Hotels into wishlist.run(Verify user can 3 Hotels into wishlist:139)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679489861852.run(TempTestSuite1679489861852.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' located by '//*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/skyshi/git/web_katalon_traveloka/Reports/20230322_195741/Case 2/20230322_195741/1679490018848.png]]]]></system-out>
+         <system-err><![CDATA[2023-03-22 19:57:49 - [TEST_CASE][FAILED] - Test Cases/Verify user can 3 Hotels into wishlist: Test Cases/Verify user can 3 Hotels into wishlist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Verify user can 3 Hotels into wishlist.run(Verify user can 3 Hotels into wishlist:139)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679489861852.run(TempTestSuite1679489861852.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' located by '//*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-22 19:57:48 - [TEST_SUITE][FAILED] - Case 2: Test Cases/Verify user can 3 Hotels into wishlist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Verify user can 3 Hotels into wishlist.run(Verify user can 3 Hotels into wishlist:139)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679489861852.run(TempTestSuite1679489861852.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' located by '//*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-03-22 19:57:48 - [TEST_SUITE][FAILED] - Case 2: Test Cases/Verify user can 3 Hotels into wishlist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at Verify user can 3 Hotels into wishlist.run(Verify user can 3 Hotels into wishlist:139)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1679489861852.run(TempTestSuite1679489861852.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SearchResultHotels/HotelCardMeliaPurosaniYogyakarta' located by '//*[(text() = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)' or . = 'Melia Purosani YogyakartaHotelsMalioboro Street, YogyakartaImpressive - 8.7 (3620)')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

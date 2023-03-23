@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResultYogyakartaCity</name>
+   <tag></tag>
+   <elementGuidId>f6e752fd-25b2-4a4b-9981-89bf995e8923</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-1awozwy.r-18u37iz.r-1wtj0ep.r-zl2h9q</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'YogyakartaCity' or . = 'YogyakartaCity')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d76adf2f-3679-440a-abbb-962e56db1d0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep r-zl2h9q</value>
+      <webElementGuid>e7ca2239-0d35-4dd0-af1d-8eefc01a141f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>YogyakartaCity</value>
+      <webElementGuid>b7cc4bda-1405-4780-a922-bfe536054d44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n r-1jgb5lz r-xiad99 r-16k0tzm&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-1yos0t3 r-bztko3 r-184en5c&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-pezta&quot;]/div[@class=&quot;css-1dbjc4n r-6koalj r-18u37iz r-12w9sp&quot;]/div[@class=&quot;css-1dbjc4n r-16y2uox r-1wbh5a2 r-zm1pxt&quot;]/div[@class=&quot;css-1dbjc4n r-nsbfu8&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-tqpus0&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-1gx4gb9 r-kdyh1x r-rs99b7 r-1d2f490 r-1udh08x r-u8s1d r-j76wpu r-pezta&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-1sncvnh&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1loqt21 r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-qklmqi r-1gx4gb9 r-edyy15&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep r-zl2h9q&quot;]</value>
+      <webElementGuid>4a0f1a46-a793-4373-8b1b-acfc722b0420</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[5]/div[2]/div/div/div/div[3]/div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>de4cf969-0437-4bd7-aef5-c04950e06c7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type more to get more relevant results'])[1]/following::div[4]</value>
+      <webElementGuid>57ccd364-606f-4cec-9bf3-2fa24dbf0325</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City, destination, or hotel name'])[1]/following::div[17]</value>
+      <webElementGuid>88e90aa9-93bb-4dc7-9457-f4e7b9120c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>f8156668-6403-432c-9afe-072dc73a26fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'YogyakartaCity' or . = 'YogyakartaCity')]</value>
+      <webElementGuid>c12179bf-ad34-4eee-ad78-fa75f742d5b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

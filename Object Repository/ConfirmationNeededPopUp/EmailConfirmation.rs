@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EmailConfirmation</name>
+   <tag></tag>
+   <elementGuidId>e22be354-3ab7-4885-ac10-9abe1c85f234</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-eqz5dr.r-6e0ovw > div.css-901oao.r-1sixt3s.r-ubezar.r-majxgm.r-135wba7.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a35aed04-0156-47fc-84f2-552b7d0a3830</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>0c866993-ec75-4cb9-8131-b411bbfc877e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-901oao r-1sixt3s r-ubezar r-majxgm r-135wba7 r-fdjqy7</value>
+      <webElementGuid>dc895e1a-55be-41aa-8a1a-e3c9896c99f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>wi***skyshi.com</value>
+      <webElementGuid>a28927e2-8893-4a9e-9bc4-722f7824fcbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[13]/div[@class=&quot;css-1dbjc4n r-1niwhzg r-1p0dtai r-6koalj r-1d2f490 r-1xcajam r-zchlnj r-ipm5af&quot;]/div[@class=&quot;css-1dbjc4n r-1kihuf0 r-13awgt0 r-1777fci r-12vffkv&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-kdyh1x r-b4qz5r r-1jgb5lz r-1udh08x r-d23pfw&quot;]/div[@class=&quot;css-1dbjc4n r-1wzrnnt&quot;]/div[@class=&quot;css-1dbjc4n r-1loqt21 r-bnwqim r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/a[@class=&quot;css-4rbku5 r-1vjbqqu&quot;]/div[@class=&quot;css-1dbjc4n r-qklmqi r-1l31rp8 r-rs99b7 r-1loqt21 r-18u37iz r-nsbfu8&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr r-6e0ovw&quot;]/div[@class=&quot;css-901oao r-1sixt3s r-ubezar r-majxgm r-135wba7 r-fdjqy7&quot;]</value>
+      <webElementGuid>a6d803d5-94c6-43c2-a5ad-78dc4e204491</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::div[1]</value>
+      <webElementGuid>6fbdfe78-9aeb-4f73-b7ba-2cf664be2352</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation Needed'])[1]/following::div[8]</value>
+      <webElementGuid>86fd279b-daf6-4a2d-ae23-b19873630f34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='wi***skyshi.com']/parent::*</value>
+      <webElementGuid>9e4f0c0b-df8e-4123-b2e5-4597ef88406d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/div/div[2]/div[2]</value>
+      <webElementGuid>1ea114f7-7d40-47b2-89ba-4cc64fc28586</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'wi***skyshi.com' or . = 'wi***skyshi.com')]</value>
+      <webElementGuid>cf51bca4-7bc4-4c69-be97-c6a5c120ecc5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

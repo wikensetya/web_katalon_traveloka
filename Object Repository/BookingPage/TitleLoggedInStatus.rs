@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TitleLoggedInStatus</name>
+   <tag></tag>
+   <elementGuidId>2c481fe1-51b0-4ae3-8fbf-d3c590e9d742</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-16y2uox.r-1wbh5a2.r-1ow6zhx > h3.css-4rbku5.css-901oao.r-1sixt3s.r-ubezar.r-b88u0q.r-rjixqe.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/div/div/div[3]/div/div/div/div[3]/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>6bdbe4c9-d328-4ce2-9e99-080db79ab849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>fd1d3eeb-ad03-44d2-afd7-64255dd17209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>87c18648-94d8-4fce-8fc2-6d8092937ad7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>f836a547-4f4b-4061-80e2-36a944ed968e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rbku5 css-901oao r-1sixt3s r-ubezar r-b88u0q r-rjixqe r-fdjqy7</value>
+      <webElementGuid>f125441d-1284-40be-9ce4-763351e7bda7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logged in as weekendtiga </value>
+      <webElementGuid>d02cf875-e393-41a6-a49f-d442f02c3edd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n r-391gc0&quot;]/div[@class=&quot;css-1dbjc4n r-1jgb5lz r-1r5su4o r-uwe93p&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1habvwh r-18u37iz&quot;]/div[@class=&quot;css-1dbjc4n r-dta0w2&quot;]/div[@class=&quot;css-1dbjc4n r-zd98yo&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-14lw9ot r-kdyh1x r-da5iq2 r-18u37iz r-1udh08x r-nsbfu8&quot;]/div[@class=&quot;css-1dbjc4n r-16y2uox r-1wbh5a2 r-1ow6zhx&quot;]/h3[@class=&quot;css-4rbku5 css-901oao r-1sixt3s r-ubezar r-b88u0q r-rjixqe r-fdjqy7&quot;]</value>
+      <webElementGuid>d0141207-794a-4818-a322-52531b303d69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div/div[3]/div/div/div/div[3]/h3</value>
+      <webElementGuid>6af5982d-990f-4d29-a138-057cc88a48ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fill in contact and guest details below'])[1]/following::h3[1]</value>
+      <webElementGuid>0b98c138-0b12-49cd-90d0-8368522423f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotel Booking'])[1]/following::h3[2]</value>
+      <webElementGuid>cca85a25-f2ed-4199-955c-0fe214c7331d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(wiken3@inbound.skyshi.io)'])[1]/preceding::h3[1]</value>
+      <webElementGuid>70765ef7-d1c4-40d6-b522-b8e0936993d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Must-Read Before Check-in'])[1]/preceding::h3[1]</value>
+      <webElementGuid>1e2a7963-372b-41ef-9f9c-cbcecfb71bd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Logged in as weekendtiga']/parent::*</value>
+      <webElementGuid>70145f4e-2667-4e73-9a69-706933926858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/h3</value>
+      <webElementGuid>10edd94e-b4d9-4e8a-998d-9ac11b552dd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Logged in as weekendtiga ' or . = 'Logged in as weekendtiga ')]</value>
+      <webElementGuid>5507862b-53f2-4314-9b4e-295d3b6c70a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

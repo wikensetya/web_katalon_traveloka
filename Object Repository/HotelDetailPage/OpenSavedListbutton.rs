@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OpenSavedListbutton</name>
+   <tag></tag>
+   <elementGuidId>98ea8936-c186-45d8-a67a-cac9f9f0b365</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-173mn98.r-1loqt21.r-6koalj.r-1s2bzr4.r-1otgn73.r-1i6wzkk.r-lrvibr > h3.css-4rbku5.css-901oao.r-jwli3a.r-1sixt3s.r-ubezar.r-b88u0q.r-rjixqe.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h3[(text() = 'Open Saved List?' or . = 'Open Saved List?')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>b7781143-8e35-45c2-8898-a7aa688bdd09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>e6f9feb9-4fdf-4ad4-9ea4-82bc51cea759</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>17ef44f3-68c8-4280-8f78-ef409f6e27d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>726db072-cf03-4252-9f0f-4147cbf544e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rbku5 css-901oao r-jwli3a r-1sixt3s r-ubezar r-b88u0q r-rjixqe r-fdjqy7</value>
+      <webElementGuid>64367b39-629a-4c63-bc00-ca879eac9ef3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Open Saved List?</value>
+      <webElementGuid>317d4755-4e15-473c-8432-c1ca66e8d18a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[6]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-1yos0t3 r-1udh08x r-nsbfu8 r-13qz1uu&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-13awgt0 r-eqz5dr r-1h0z5md&quot;]/div[@class=&quot;css-1dbjc4n r-173mn98 r-1loqt21 r-6koalj r-1s2bzr4 r-1otgn73 r-1i6wzkk r-lrvibr&quot;]/h3[@class=&quot;css-4rbku5 css-901oao r-jwli3a r-1sixt3s r-ubezar r-b88u0q r-rjixqe r-fdjqy7&quot;]</value>
+      <webElementGuid>d32a7db2-bd02-4d95-ab8b-4e9dd14238e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item added to your Saved List!'])[1]/following::h3[1]</value>
+      <webElementGuid>5f50b852-09f3-4785-bb6a-03d90ec77e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See Collection'])[1]/preceding::h3[1]</value>
+      <webElementGuid>dca47414-c1fc-4c16-9ecc-1768f89f9ae5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::h3[2]</value>
+      <webElementGuid>88c82a5b-1318-4378-8b78-dc1da107fb4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Open Saved List?']/parent::*</value>
+      <webElementGuid>10df5800-f60c-4cb0-9792-8f4c9867f6db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h3</value>
+      <webElementGuid>e158518f-177a-4879-9181-ccadbb479135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Open Saved List?' or . = 'Open Saved List?')]</value>
+      <webElementGuid>3a7a5ff1-e5ef-43b1-b7bb-1c593f45112b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Case 1,Chrome 111.0.0.0,"Cari hotel di website traveloka kriteria : Kota Palembang check in 1 hari , jumlah tamu 1 orang dewasa 1 kamar, lakukan filter hasil tampilan hotel berdasarkan harga terendah dan memiliki fasilitas wifi, dengan kisaran harga 500,000 - 800,000. Kemudian pilih salah satu hotel (bebas) dan lakukan simpan (wishlist) hotel tersebut. Lakukan pemesanan hotel dari fitur simpan (wishlist).",,2023-03-21 22:38:26,2023-03-21 22:39:33,1m - 6.643s,FAILED
+,,,,,,,
+Test Cases/Verify user can login,Chrome 111.0.0.0,,,2023-03-21 22:38:28,2023-03-21 22:39:24,56.670s,FAILED
+"openBrowser(""https://www.traveloka.com/"")",Chrome 111.0.0.0,,,2023-03-21 22:38:29,2023-03-21 22:38:49,20.129s,PASSED
+waitForPageLoad(2),Chrome 111.0.0.0,,,2023-03-21 22:38:49,2023-03-21 22:38:50,0.737s,PASSED
+"click(findTestObject(""HomePage/LogInButton""))",Chrome 111.0.0.0,,,2023-03-21 22:38:50,2023-03-21 22:38:52,2.085s,PASSED
+"waitForElementPresent(findTestObject(""LogInPopUp/LogInToYourAccountPopUp""), 2)",Chrome 111.0.0.0,,,2023-03-21 22:38:52,2023-03-21 22:38:53,0.917s,PASSED
+"verifyElementText(findTestObject(""LogInPopUp/LogInToYourAccountPopUp""), ""Log in to your account"")",Chrome 111.0.0.0,,,2023-03-21 22:38:53,2023-03-21 22:38:54,0.995s,PASSED
+"setText(findTestObject(""LogInPopUp/InputEmail""), email)",Chrome 111.0.0.0,,,2023-03-21 22:38:54,2023-03-21 22:38:56,2.524s,PASSED
+"setText(findTestObject(""LogInPopUp/InputPassword""), password)",Chrome 111.0.0.0,,,2023-03-21 22:38:56,2023-03-21 22:38:58,1.957s,PASSED
+"click(findTestObject(""LogInPopUp/LogInButton""))",Chrome 111.0.0.0,,,2023-03-21 22:38:58,2023-03-21 22:38:59,0.963s,PASSED
+"waitForElementPresent(findTestObject(""ConfirmationNeededPopUp/TitleConfirmationNeededPopUp""), 2)",Chrome 111.0.0.0,,,2023-03-21 22:38:59,2023-03-21 22:39:01,1.782s,PASSED
+"verifyElementText(findTestObject(""ConfirmationNeededPopUp/TitleConfirmationNeededPopUp""), ""Confirmation Needed"")",Chrome 111.0.0.0,,,2023-03-21 22:39:01,2023-03-21 22:39:02,0.682s,PASSED
+"click(findTestObject(""ConfirmationNeededPopUp/EmailConfirmation""))",Chrome 111.0.0.0,,,2023-03-21 22:39:02,2023-03-21 22:39:03,1.087s,PASSED
+delay(10),Chrome 111.0.0.0,,,2023-03-21 22:39:03,2023-03-21 22:39:13,10.085s,PASSED
+"response = sendRequest(findTestObject(""ApiPage/VerificationCode""))",Chrome 111.0.0.0,,,2023-03-21 22:39:13,2023-03-21 22:39:19,6.561s,PASSED
+data = response.getResponseText(),Chrome 111.0.0.0,,,2023-03-21 22:39:19,2023-03-21 22:39:19,0.140s,PASSED
+"setText(findTestObject(""VerificationCodePopUp/InputVerificationCode""), data)",Chrome 111.0.0.0,,,2023-03-21 22:39:19,2023-03-21 22:39:21,2.051s,PASSED
+waitForPageLoad(2),Chrome 111.0.0.0,,,2023-03-21 22:39:22,2023-03-21 22:39:22,0.552s,PASSED
+"verifyElementText(findTestObject(""HomePage/UserName""), ""weekendtiga"")",Chrome 111.0.0.0,,,2023-03-21 22:39:22,2023-03-21 22:39:24,2.021s,FAILED
+,,,,,,,
+Test Cases/Verify user can add Hotel in Palembang into wishlist,Chrome 111.0.0.0,,,2023-03-21 22:39:24,2023-03-21 22:39:33,8.798s,PASSED
+"navigateToUrl(""https://traveloka.com"")",Chrome 111.0.0.0,,,2023-03-21 22:39:26,2023-03-21 22:39:28,2.399s,PASSED
+waitForPageLoad(2),Chrome 111.0.0.0,,,2023-03-21 22:39:28,2023-03-21 22:39:28,0.364s,PASSED
+"click(findTestObject(""HomePage/HotelsMenu""))",Chrome 111.0.0.0,,,2023-03-21 22:39:28,2023-03-21 22:39:33,4.699s,PASSED

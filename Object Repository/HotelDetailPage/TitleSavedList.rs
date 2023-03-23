@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TitleSavedList</name>
+   <tag></tag>
+   <elementGuidId>c498760e-0c56-405a-8fa0-d5a358011038</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-1peese0 > h2.css-4rbku5.css-901oao.r-1sixt3s.r-adyw6z.r-b88u0q.r-135wba7.r-6gpygo.r-fdjqy7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[3]/div/div[3]/div[2]/div/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>8f34b9ab-b72e-440d-9046-d5cb6c4e9694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>22639fc8-93d9-4a78-8d73-ac7959fe8fdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>9de8ba14-5448-4906-a27d-669fb604c06a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>7deffa94-52dd-49c5-8943-0fecdb8883f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-4rbku5 css-901oao r-1sixt3s r-adyw6z r-b88u0q r-135wba7 r-6gpygo r-fdjqy7</value>
+      <webElementGuid>e04ef25d-2a8b-4d72-b4ad-73fb14985b39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Saved List</value>
+      <webElementGuid>9e884b67-d2d2-47e1-91e8-6738731b1eec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n r-1awozwy r-1ihkh82&quot;]/div[@class=&quot;css-1dbjc4n r-1awozwy r-zd98yo r-1jgb5lz r-2o02ov r-dg7iqi r-nib5yn&quot;]/div[@class=&quot;css-1dbjc4n r-18u37iz r-13qz1uu&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-1ul06mb&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-1peese0&quot;]/h2[@class=&quot;css-4rbku5 css-901oao r-1sixt3s r-adyw6z r-b88u0q r-135wba7 r-6gpygo r-fdjqy7&quot;]</value>
+      <webElementGuid>5bc9e05c-57dc-4291-be46-9e93fc849214</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[3]/div/div[3]/div[2]/div/div/h2</value>
+      <webElementGuid>2c226526-72af-435b-a317-17b2963a725e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bus &amp; Shuttle'])[1]/following::h2[1]</value>
+      <webElementGuid>9bef7a95-f00f-4381-aeec-93c5d46f4c8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Articles'])[1]/following::h2[1]</value>
+      <webElementGuid>1be813b5-8711-4ead-b64e-a752b4f6cda6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A place to keep all your favorite items!'])[1]/preceding::h2[1]</value>
+      <webElementGuid>21d38ae3-e896-4c0b-bc75-8e29b35f1c62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotels'])[2]/preceding::h2[1]</value>
+      <webElementGuid>2635b19b-3390-4111-8b63-5346ec22f4de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Saved List']/parent::*</value>
+      <webElementGuid>4f0b61bb-1763-4969-875b-a70e686b1ba4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/h2</value>
+      <webElementGuid>2dd4e6da-480c-445d-b85a-44f79e16b2a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Saved List' or . = 'Saved List')]</value>
+      <webElementGuid>4673d9be-3c40-42c1-8d11-645867f92251</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

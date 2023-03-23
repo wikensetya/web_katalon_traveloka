@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>HotelCardBestonHotelPalembang</name>
+   <tag></tag>
+   <elementGuidId>40f9a947-b3fb-4b9d-b899-4ff473a8f213</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1dbjc4n.r-eqz5dr.r-ymttw5</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Beston Hotel Palembang (FKA Horison Ultima Palembang)HotelsIlir Timur I, PalembangImpressive - 8.5 (10169)' or . = 'Beston Hotel Palembang (FKA Horison Ultima Palembang)HotelsIlir Timur I, PalembangImpressive - 8.5 (10169)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[5]/div/div[3]/div[2]/div[3]/div/div/div/div/div/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7e26bd27-0e5b-42aa-a86d-06662cd57954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dbjc4n r-eqz5dr r-ymttw5</value>
+      <webElementGuid>53aa6efd-a57d-486f-b736-43cbe5dc2877</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Beston Hotel Palembang (FKA Horison Ultima Palembang)HotelsIlir Timur I, PalembangImpressive - 8.5 (10169)</value>
+      <webElementGuid>a0052c7d-2c08-48b8-821e-bcdea56c38f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1dbjc4n r-mabd2g r-1q2s4rl&quot;]/div[@class=&quot;css-1dbjc4n r-1jgb5lz r-uwe93p&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-18u37iz&quot;]/div[@class=&quot;css-1dbjc4n r-13awgt0 r-19u6a5r&quot;]/div[@class=&quot;css-1dbjc4n r-1wzrnnt&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-kdyh1x r-q8m4tp r-1loqt21&quot;]/div[@class=&quot;css-1dbjc4n&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-1wh2hl7 r-e65k4z r-9m1xoq r-rs99b7 r-eqz5dr&quot;]/div[@class=&quot;css-1dbjc4n r-18u37iz r-15y939m&quot;]/div[@class=&quot;css-1dbjc4n r-14lw9ot r-13awgt0 r-1wtj0ep r-1yzf0co&quot;]/div[@class=&quot;css-1dbjc4n r-eqz5dr r-ymttw5&quot;]</value>
+      <webElementGuid>7ffce1cd-ca1f-4b2a-95f2-b43c4fba691d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[5]/div/div[3]/div[2]/div[3]/div/div/div/div/div/div[3]/div</value>
+      <webElementGuid>28f3dd84-4602-4674-a51f-a6712dba39ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Must travel in these uncertain times? Learn how to keep your staying plan flexible.'])[1]/following::div[30]</value>
+      <webElementGuid>f4e121eb-83aa-47c8-a05e-4bef0c34e1f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xtra Deals'])[2]/following::div[33]</value>
+      <webElementGuid>051918dc-5bee-4297-9884-e760d6a163f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/div/div/div/div/div[3]/div</value>
+      <webElementGuid>43d91295-5b87-49b0-acd4-dd624cfe9e0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Beston Hotel Palembang (FKA Horison Ultima Palembang)HotelsIlir Timur I, PalembangImpressive - 8.5 (10169)' or . = 'Beston Hotel Palembang (FKA Horison Ultima Palembang)HotelsIlir Timur I, PalembangImpressive - 8.5 (10169)')]</value>
+      <webElementGuid>bd050414-84c2-4730-ac48-27c71c2e53b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
